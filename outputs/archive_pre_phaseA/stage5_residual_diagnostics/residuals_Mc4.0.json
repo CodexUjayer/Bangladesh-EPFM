@@ -1,0 +1,132 @@
+{
+  "n_events": 2288,
+  "mean_transformed_iet": 1.0004372540445998,
+  "ks_stat_temporal": 0.0687314745931637,
+  "spatial_chi2": 236350737.83196005,
+  "spatial_df": 64,
+  "remaining_clustering": true,
+  "notes": "Rolling rate in transformed time varies by >2x; remaining non-Poisson structure. Identify where (see spatial residuals).",
+  "spatial_residuals_summary": [
+    {
+      "cell_id": "cell_00_00",
+      "observed": 3,
+      "expected": 75356.3,
+      "residual": -75353.3
+    },
+    {
+      "cell_id": "cell_00_01",
+      "observed": 2,
+      "expected": 314696.26,
+      "residual": -314694.26
+    },
+    {
+      "cell_id": "cell_00_02",
+      "observed": 1,
+      "expected": 88510.71,
+      "residual": -88509.71
+    },
+    {
+      "cell_id": "cell_00_03",
+      "observed": 5,
+      "expected": 243018.88,
+      "residual": -243013.88
+    },
+    {
+      "cell_id": "cell_00_04",
+      "observed": 16,
+      "expected": 760539.39,
+      "residual": -760523.39
+    },
+    {
+      "cell_id": "cell_00_05",
+      "observed": 69,
+      "expected": 2620187.73,
+      "residual": -2620118.73
+    },
+    {
+      "cell_id": "cell_00_06",
+      "observed": 45,
+      "expected": 4418672.17,
+      "residual": -4418627.17
+    },
+    {
+      "cell_id": "cell_00_07",
+      "observed": 1,
+      "expected": 1433758.01,
+      "residual": -1433757.01
+    },
+    {
+      "cell_id": "cell_01_00",
+      "observed": 1,
+      "expected": 159709.16,
+      "residual": -159708.16
+    },
+    {
+      "cell_id": "cell_01_01",
+      "observed": 2,
+      "expected": 284958.17,
+      "residual": -284956.17
+    },
+    {
+      "cell_id": "cell_01_02",
+      "observed": 1,
+      "expected": 138416.14,
+      "residual": -138415.14
+    },
+    {
+      "cell_id": "cell_01_03",
+      "observed": 12,
+      "expected": 404051.37,
+      "residual": -404039.37
+    },
+    {
+      "cell_id": "cell_01_04",
+      "observed": 38,
+      "expected": 1555610.53,
+      "residual": -1555572.53
+    },
+    {
+      "cell_id": "cell_01_05",
+      "observed": 87,
+      "expected": 5365862.73,
+      "residual": -5365775.73
+    },
+    {
+      "cell_id": "cell_01_06",
+      "observed": 65,
+      "expected": 8047881.57,
+      "residual": -8047816.57
+    },
+    {
+      "cell_id": "cell_01_07",
+      "observed": 9,
+      "expected": 2076621.84,
+      "residual": -2076612.84
+    },
+    {
+      "cell_id": "cell_02_00",
+      "observed": 4,
+      "expected": 180260.0,
+      "residual": -180256.0
+    },
+    {
+      "cell_id": "cell_02_01",
+      "observed": 0,
+      "expected": 160092.32,
+      "residual": -160092.32
+    },
+    {
+      "cell_id": "cell_02_02",
+      "observed": 10,
+      "expected": 172940.04,
+      "residual": -172930.04
+    },
+    {
+      "cell_id": "cell_02_03",
+      "observed": 27,
+      "expected": 858197.79,
+      "residual": -858170.79
+    }
+  ],
+  "Mc": 4.0
+}

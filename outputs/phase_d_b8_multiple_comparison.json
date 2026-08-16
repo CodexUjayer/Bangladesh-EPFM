@@ -1,0 +1,48 @@
+{
+  "n_comparisons": 3,
+  "alpha": 0.05,
+  "bonferroni_alpha": 0.016666666666666666,
+  "bh_threshold": 0.05,
+  "n_beat_sp_uncorrected": 0,
+  "n_significant_bonferroni": 0,
+  "n_significant_bh": 0,
+  "comparisons": [
+    {
+      "horizon": "7d",
+      "threshold": 4.125000000000002,
+      "model": "uniform_poisson",
+      "delta_brier": -0.36962436866120923,
+      "ci_lower": -0.4120432172838923,
+      "ci_upper": -0.32163474196644154,
+      "p_value": 0.486,
+      "beats_sp": false,
+      "bonferroni_significant": false,
+      "bh_significant": false
+    },
+    {
+      "horizon": "7d",
+      "threshold": 4.125000000000002,
+      "model": "etas_mle",
+      "delta_brier": -0.1986748001954814,
+      "ci_lower": -0.2082047104728051,
+      "ci_upper": -0.18917323917214304,
+      "p_value": 0.995,
+      "beats_sp": false,
+      "bonferroni_significant": false,
+      "bh_significant": false
+    },
+    {
+      "horizon": "7d",
+      "threshold": 4.125000000000002,
+      "model": "etas_forced",
+      "delta_brier": -0.02878676551674075,
+      "ci_lower": -0.03181228826538554,
+      "ci_upper": -0.025849594799882022,
+      "p_value": 0.91,
+      "beats_sp": false,
+      "bonferroni_significant": false,
+      "bh_significant": false
+    }
+  ],
+  "summary": "3 comparisons tested. Uncorrected: 0 beat SP. Bonferroni-significant (\u03b1=0.0167): 0. BH-significant (q=0.0500): 0. No selective highlighting: full matrix reported."
+}

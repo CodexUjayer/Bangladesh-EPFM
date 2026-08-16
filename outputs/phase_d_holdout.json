@@ -1,0 +1,668 @@
+{
+  "quadrants": {
+    "NW": {
+      "n_held_out_cells": 16,
+      "n_train_cells": 48,
+      "n_origins": 5,
+      "n_positive": 1,
+      "spatial_poisson": {
+        "model_name": "sp",
+        "n_test": 80,
+        "n_positive": 1,
+        "base_rate": 0.0125,
+        "brier": 0.0125,
+        "brier_poisson": 0.0125,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.0872,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0108,
+        "sharpness": 0.0018,
+        "roc_auc": 0.4937,
+        "pr_auc": 0.0233,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 80,
+            "mean_pred": 0.0017,
+            "obs_freq": 0.0125
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (1); high variance in metrics.; sp does NOT beat Poisson (Brier 0.0125 >= 0.0125).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "gb_ml_f": {
+        "model_name": "gb",
+        "n_test": 80,
+        "n_positive": 1,
+        "base_rate": 0.0125,
+        "brier": 0.0125,
+        "brier_poisson": 0.0125,
+        "brier_improvement": -0.0,
+        "log_likelihood": -0.2254,
+        "information_gain_vs_poisson": -0.1382,
+        "expected_calibration_error": 0.0125,
+        "sharpness": 0.0,
+        "roc_auc": 0.7025,
+        "pr_auc": 0.0312,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 80,
+            "mean_pred": 0.0,
+            "obs_freq": 0.0125
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (1); high variance in metrics.; gb does NOT beat Poisson (Brier 0.0125 >= 0.0125).; Non-positive information gain (-0.1382).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "logistic_ml_f": {
+        "model_name": "log",
+        "n_test": 80,
+        "n_positive": 1,
+        "base_rate": 0.0125,
+        "brier": 0.0305,
+        "brier_poisson": 0.0125,
+        "brier_improvement": -0.018,
+        "log_likelihood": -0.2169,
+        "information_gain_vs_poisson": -0.1297,
+        "expected_calibration_error": 0.0261,
+        "sharpness": 0.1303,
+        "roc_auc": 0.4177,
+        "pr_auc": 0.0213,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 77,
+            "mean_pred": 0.0098,
+            "obs_freq": 0.013
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 1,
+            "mean_pred": 0.2632,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 1,
+            "mean_pred": 0.6437,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 1,
+            "mean_pred": 0.9359,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (1); high variance in metrics.; log does NOT beat Poisson (Brier 0.0305 >= 0.0125).; Non-positive information gain (-0.1297).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "NE": {
+      "n_held_out_cells": 16,
+      "n_train_cells": 48,
+      "n_origins": 5,
+      "n_positive": 5,
+      "spatial_poisson": {
+        "model_name": "sp",
+        "n_test": 80,
+        "n_positive": 5,
+        "base_rate": 0.0625,
+        "brier": 0.0519,
+        "brier_poisson": 0.0519,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.1691,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0338,
+        "sharpness": 0.0286,
+        "roc_auc": 0.9707,
+        "pr_auc": 0.5726,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 80,
+            "mean_pred": 0.0287,
+            "obs_freq": 0.0625
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (5); high variance in metrics.; sp does NOT beat Poisson (Brier 0.0519 >= 0.0519).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "gb_ml_f": {
+        "model_name": "gb",
+        "n_test": 80,
+        "n_positive": 5,
+        "base_rate": 0.0625,
+        "brier": 0.0678,
+        "brier_poisson": 0.0519,
+        "brier_improvement": -0.0159,
+        "log_likelihood": -0.5965,
+        "information_gain_vs_poisson": -0.4275,
+        "expected_calibration_error": 0.0696,
+        "sharpness": 0.1095,
+        "roc_auc": 0.8227,
+        "pr_auc": 0.4658,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 78,
+            "mean_pred": 0.0022,
+            "obs_freq": 0.0513
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 1,
+            "mean_pred": 0.2193,
+            "obs_freq": 1.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 1,
+            "mean_pred": 0.9588,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (5); high variance in metrics.; gb does NOT beat Poisson (Brier 0.0678 >= 0.0519).; Non-positive information gain (-0.4275).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "logistic_ml_f": {
+        "model_name": "log",
+        "n_test": 80,
+        "n_positive": 5,
+        "base_rate": 0.0625,
+        "brier": 0.0642,
+        "brier_poisson": 0.0519,
+        "brier_improvement": -0.0123,
+        "log_likelihood": -1.1153,
+        "information_gain_vs_poisson": -0.9462,
+        "expected_calibration_error": 0.064,
+        "sharpness": 0.0412,
+        "roc_auc": 0.6067,
+        "pr_auc": 0.1155,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 79,
+            "mean_pred": 0.0028,
+            "obs_freq": 0.0633
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 1,
+            "mean_pred": 0.3348,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (5); high variance in metrics.; log does NOT beat Poisson (Brier 0.0642 >= 0.0519).; Non-positive information gain (-0.9462).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "SW": {
+      "n_held_out_cells": 16,
+      "n_train_cells": 48,
+      "n_origins": 5,
+      "n_positive": 0,
+      "spatial_poisson": {
+        "model_name": "sp",
+        "n_test": 80,
+        "n_positive": 0,
+        "base_rate": 0.0,
+        "brier": 0.0001,
+        "brier_poisson": 0.0001,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.0078,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0077,
+        "sharpness": 0.0066,
+        "roc_auc": null,
+        "pr_auc": null,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 80,
+            "mean_pred": 0.0077,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (0); high variance in metrics.; sp does NOT beat Poisson (Brier 0.0001 >= 0.0001).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "gb_ml_f": {
+        "model_name": "gb",
+        "n_test": 80,
+        "n_positive": 0,
+        "base_rate": 0.0,
+        "brier": 0.0342,
+        "brier_poisson": 0.0001,
+        "brier_improvement": -0.0341,
+        "log_likelihood": -0.1114,
+        "information_gain_vs_poisson": -0.1036,
+        "expected_calibration_error": 0.0548,
+        "sharpness": 0.1766,
+        "roc_auc": null,
+        "pr_auc": null,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 73,
+            "mean_pred": 0.0056,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 3,
+            "mean_pred": 0.3063,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 3,
+            "mean_pred": 0.6941,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 1,
+            "mean_pred": 0.9777,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (0); high variance in metrics.; gb does NOT beat Poisson (Brier 0.0342 >= 0.0001).; Non-positive information gain (-0.1036).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "logistic_ml_f": {
+        "model_name": "log",
+        "n_test": 80,
+        "n_positive": 0,
+        "base_rate": 0.0,
+        "brier": 0.0205,
+        "brier_poisson": 0.0001,
+        "brier_improvement": -0.0204,
+        "log_likelihood": -0.0726,
+        "information_gain_vs_poisson": -0.0648,
+        "expected_calibration_error": 0.0468,
+        "sharpness": 0.1354,
+        "roc_auc": null,
+        "pr_auc": null,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 75,
+            "mean_pred": 0.0188,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 3,
+            "mean_pred": 0.2348,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 1,
+            "mean_pred": 0.738,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 1,
+            "mean_pred": 0.8857,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (0); high variance in metrics.; log does NOT beat Poisson (Brier 0.0205 >= 0.0001).; Non-positive information gain (-0.0648).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "SE": {
+      "n_held_out_cells": 16,
+      "n_train_cells": 48,
+      "n_origins": 5,
+      "n_positive": 4,
+      "spatial_poisson": {
+        "model_name": "sp",
+        "n_test": 80,
+        "n_positive": 4,
+        "base_rate": 0.05,
+        "brier": 0.0471,
+        "brier_poisson": 0.0471,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.2109,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0244,
+        "sharpness": 0.0248,
+        "roc_auc": 0.6283,
+        "pr_auc": 0.1525,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 80,
+            "mean_pred": 0.0256,
+            "obs_freq": 0.05
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (4); high variance in metrics.; sp does NOT beat Poisson (Brier 0.0471 >= 0.0471).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "gb_ml_f": {
+        "model_name": "gb",
+        "n_test": 80,
+        "n_positive": 4,
+        "base_rate": 0.05,
+        "brier": 0.0837,
+        "brier_poisson": 0.0471,
+        "brier_improvement": -0.0366,
+        "log_likelihood": -0.9131,
+        "information_gain_vs_poisson": -0.7022,
+        "expected_calibration_error": 0.0855,
+        "sharpness": 0.1846,
+        "roc_auc": 0.7944,
+        "pr_auc": 0.1463,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 77,
+            "mean_pred": 0.0009,
+            "obs_freq": 0.0519
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 3,
+            "mean_pred": 0.9707,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (4); high variance in metrics.; gb does NOT beat Poisson (Brier 0.0837 >= 0.0471).; Non-positive information gain (-0.7022).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "logistic_ml_f": {
+        "model_name": "log",
+        "n_test": 80,
+        "n_positive": 4,
+        "base_rate": 0.05,
+        "brier": 0.0908,
+        "brier_poisson": 0.0471,
+        "brier_improvement": -0.0438,
+        "log_likelihood": -0.7698,
+        "information_gain_vs_poisson": -0.5589,
+        "expected_calibration_error": 0.0947,
+        "sharpness": 0.1965,
+        "roc_auc": 0.7171,
+        "pr_auc": 0.0993,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 75,
+            "mean_pred": 0.0019,
+            "obs_freq": 0.0533
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 1,
+            "mean_pred": 0.2562,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 1,
+            "mean_pred": 0.4675,
+            "obs_freq": 0.0
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 3,
+            "mean_pred": 0.9982,
+            "obs_freq": 0.0
+          }
+        ],
+        "notes": "Small positive count (4); high variance in metrics.; log does NOT beat Poisson (Brier 0.0908 >= 0.0471).; Non-positive information gain (-0.5589).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    }
+  },
+  "config": {
+    "horizon": "7d",
+    "threshold": 4.125000000000002
+  }
+}

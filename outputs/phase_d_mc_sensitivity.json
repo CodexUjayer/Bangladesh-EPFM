@@ -1,0 +1,154 @@
+{
+  "scenarios": {
+    "3.8": {
+      "b_value": 0.5362982349384419,
+      "b_sigma": 0.0044153342158293,
+      "a_value": 5.612890068530586,
+      "n_above_mc": 3975,
+      "rate_per_year": 76.61009891872696,
+      "poisson_probabilities": {
+        "24h": 0.18921066618433624,
+        "7d": 0.7696669876372689,
+        "30d": 0.998149705732092,
+        "90d": 0.9999999936653531,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 4.7868470273054875,
+          "P_1yr": 0.9916612923054146
+        },
+        "6.5": {
+          "rate_per_year": 2.5816682369825172,
+          "P_1yr": 0.9243522995915066
+        },
+        "7.0": {
+          "rate_per_year": 1.3923592811354484,
+          "P_1yr": 0.7515116413782758
+        }
+      },
+      "defensibility": ""
+    },
+    "4.0": {
+      "b_value": 0.7010729604179355,
+      "b_sigma": 0.007491381023237258,
+      "a_value": 6.373314427701306,
+      "n_above_mc": 3788,
+      "rate_per_year": 73.00605149789628,
+      "poisson_probabilities": {
+        "24h": 0.18117072767474285,
+        "7d": 0.7531952470703446,
+        "30d": 0.9975122840204916,
+        "90d": 0.9999999846041955,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 2.830254928300662,
+          "P_1yr": 0.9410021884596417
+        },
+        "6.5": {
+          "rate_per_year": 1.262667711819539,
+          "P_1yr": 0.7171016722579564
+        },
+        "7.0": {
+          "rate_per_year": 0.5633166590505174,
+          "P_1yr": 0.4306823036182341
+        }
+      },
+      "defensibility": "POTENTIALLY BELOW DEFENSIBLE COMPLETENESS: USGS floor is M3.2; Stage 3 audit showed only 167 events in [3.2, 4.0). Mc=4.0 is at the catalog floor and the FMD is truncated there. b-value at Mc=4.0 is biased low (0.49) due to truncation."
+    },
+    "4.125000000000002": {
+      "b_value": 0.8084070580224147,
+      "b_sigma": 0.009950435757924411,
+      "a_value": 6.870732269501667,
+      "n_above_mc": 3222,
+      "rate_per_year": 62.09754433110396,
+      "poisson_probabilities": {
+        "24h": 0.15634683486231227,
+        "7d": 0.6958081449141724,
+        "30d": 0.9939057789078504,
+        "90d": 0.9999997736634886,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 2.0194765357333107,
+          "P_1yr": 0.8672750763461732
+        },
+        "6.5": {
+          "rate_per_year": 0.7962240337261296,
+          "P_1yr": 0.5489711775842994
+        },
+        "7.0": {
+          "rate_per_year": 0.31392922901820197,
+          "P_1yr": 0.26942927046227305
+        }
+      },
+      "defensibility": ""
+    },
+    "4.3": {
+      "b_value": 0.9236074901008251,
+      "b_sigma": 0.013166423241733177,
+      "a_value": 7.414931669216365,
+      "n_above_mc": 2623,
+      "rate_per_year": 50.55302879592976,
+      "poisson_probabilities": {
+        "24h": 0.1292554682447833,
+        "7d": 0.6204794554465158,
+        "30d": 0.9842702190939914,
+        "90d": 0.9999961080431139,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 1.4395793845279592,
+          "P_1yr": 0.7629725648755632
+        },
+        "6.5": {
+          "rate_per_year": 0.497086391319145,
+          "P_1yr": 0.3916995703354572
+        },
+        "7.0": {
+          "rate_per_year": 0.17164380310691485,
+          "P_1yr": 0.15772086304606237
+        }
+      },
+      "defensibility": ""
+    },
+    "4.5": {
+      "b_value": 1.084922116634792,
+      "b_sigma": 0.01917455394225253,
+      "a_value": 8.194326881296343,
+      "n_above_mc": 1947,
+      "rate_per_year": 37.52449373453116,
+      "poisson_probabilities": {
+        "24h": 0.09763525289344865,
+        "7d": 0.5128363877885045,
+        "30d": 0.9541368786476074,
+        "90d": 0.9999035303226841,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 0.9327023512872873,
+          "P_1yr": 0.6065110729981875
+        },
+        "6.5": {
+          "rate_per_year": 0.26747427146344155,
+          "P_1yr": 0.234689979323628
+        },
+        "7.0": {
+          "rate_per_year": 0.07670451971752641,
+          "P_1yr": 0.07383652377496808
+        }
+      },
+      "defensibility": "WORKING THRESHOLD: conservative; FMD robustly sampled above 4.5."
+    }
+  },
+  "defensibility": {
+    "4.0": "POTENTIALLY BELOW DEFENSIBLE COMPLETENESS: USGS floor is M3.2; Stage 3 audit showed only 167 events in [3.2, 4.0). Mc=4.0 is at the catalog floor and the FMD is truncated there. b-value at Mc=4.0 is biased low (0.49) due to truncation.",
+    "4.5": "WORKING THRESHOLD: conservative; FMD robustly sampled above 4.5.",
+    "5.0": "ROBUST: fewer events but completeness is certain."
+  }
+}

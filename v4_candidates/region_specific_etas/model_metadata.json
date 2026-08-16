@@ -1,0 +1,29 @@
+{
+  "model_version": "FINAL_v4.0_CANDIDATE_REGION_SPECIFIC_ETAS",
+  "control": "FINAL_v1.0_FROZEN (immutable)",
+  "comparators": [
+    "FINAL_v2.0_CANDIDATE_BAYESIAN_SPATIAL (unchanged)",
+    "FINAL_v3.0_CANDIDATE_ADAPTIVE_SPATIAL (REJECTED, unchanged)"
+  ],
+  "status": "EXPERIMENTAL \u2014 RETROSPECTIVE VALIDATION COMPLETE",
+  "generated_at_utc": "2026-08-13T07:35:50.386016+00:00",
+  "frozen_mc": 4.13,
+  "frozen_b": 0.808,
+  "grid": "1.0 deg, 64 cells (matches v1/v2/v3 for fair comparison)",
+  "evaluation_period": "2015-2023 (untouched)",
+  "development_period": "events before 2010-01-01",
+  "n_forecast_origins_eval": 9,
+  "variants": [
+    "A_baseline",
+    "B_depth_stratified",
+    "C_depth_spatial",
+    "D_exponential"
+  ],
+  "k_any_nonzero": false,
+  "verdict": "D",
+  "final_answer": "NO",
+  "prospective_eligible": false,
+  "n_paired_bootstrap": 500,
+  "n_permutations": 1000,
+  "random_seed": 42
+}

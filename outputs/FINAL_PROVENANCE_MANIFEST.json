@@ -1,0 +1,152 @@
+{
+  "system": "Bangladesh Earthquake Forecasting System",
+  "version": "FINAL_v1.0_FROZEN",
+  "generated_at_utc": "2026-08-09T17:00:00Z",
+  "frozen": true,
+  "results": [
+    {
+      "result_name": "Expanded catalog construction",
+      "source_artifact": "outputs/phase_c_merged_catalog.csv",
+      "source_dataset": "USGS ComCat + ISC Bulletin",
+      "code_module": "src/phase_c/isc_reader.py, src/ingestion/canonical.py",
+      "parameters": "matching: 120s, 50km; minmag: USGS 2.5, ISC 3.0",
+      "evaluation_period": "1973-2024",
+      "status": "VALIDATED",
+      "uncertainty": "N/A (catalog construction)",
+      "used_in_final_paper": true,
+      "key_value": "5,779 events, Mc=4.13, b=0.808"
+    },
+    {
+      "result_name": "Completeness Mc",
+      "source_artifact": "outputs/PHASE_C_REPORT.md",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/completeness/mc.py",
+      "parameters": "MAXC, GFT, EMR, Stepp; bin_width=0.1",
+      "evaluation_period": "1973-2024",
+      "status": "VALIDATED",
+      "uncertainty": "MAXC=4.05, GFT=5.65, EMR=4.15, Stepp=4.10; recommended=4.13",
+      "used_in_final_paper": true,
+      "key_value": "Mc=4.13"
+    },
+    {
+      "result_name": "Gutenberg-Richter b-value",
+      "source_artifact": "outputs/PHASE_D_REPORT.md",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/baselines/gutenberg_richter.py",
+      "parameters": "Aki-Utsu MLE, Mc=4.13, Shi-Bolt sigma",
+      "evaluation_period": "1973-2024",
+      "status": "VALIDATED",
+      "uncertainty": "b=0.808±0.010; Mc sensitivity: 0.54-1.09",
+      "used_in_final_paper": true,
+      "key_value": "b=0.808"
+    },
+    {
+      "result_name": "Spatial Poisson final validation",
+      "source_artifact": "outputs/final_validation_results.csv",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/ml/spatial_poisson.py, run_final.py",
+      "parameters": "1.0 deg grid, expanding-window, Mc=4.13",
+      "evaluation_period": "2015-2024 (untouched)",
+      "status": "VALIDATED",
+      "uncertainty": "7d: Brier=0.0242, ECE=0.009; 30d: Brier=0.0763, ECE=0.032",
+      "used_in_final_paper": true,
+      "key_value": "Brier(7d)=0.0242"
+    },
+    {
+      "result_name": "ETAS K≈0 (pooled)",
+      "source_artifact": "outputs/STAGE8_REPORT.md",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/etas/estimation.py",
+      "parameters": "Base-10: K*10^{alpha*(M-Mc)}; GK declustered background; Mc=4.13",
+      "evaluation_period": "1973-2024 (fit); 2015-2024 (eval)",
+      "status": "PRELIMINARY",
+      "uncertainty": "K=0, alpha=0 (at lower bounds); n_analytic=0",
+      "used_in_final_paper": true,
+      "key_value": "K=0, no triggering detected"
+    },
+    {
+      "result_name": "ETAS depth-stratified (all K≈0)",
+      "source_artifact": "outputs/STAGE8_REPORT.md",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/etas/estimation.py",
+      "parameters": "Shallow<25km, Intermediate 25-70km, Deep>=70km; Mc=4.13",
+      "evaluation_period": "1973-2024",
+      "status": "PRELIMINARY",
+      "uncertainty": "K=0 in all 3 depth regimes",
+      "used_in_final_paper": true,
+      "key_value": "K=0 in all depth groups"
+    },
+    {
+      "result_name": "ML vs Spatial Poisson",
+      "source_artifact": "outputs/final_model_comparison.csv",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/ml/models.py, run_final.py",
+      "parameters": "GB (200 trees, depth 3); ML-F features (43); seed=42",
+      "evaluation_period": "2015-2024 (untouched)",
+      "status": "VALIDATED (no skill)",
+      "uncertainty": "GB Brier=0.0327 vs SP 0.0242; GB does not beat SP",
+      "used_in_final_paper": true,
+      "key_value": "ML does not beat SP"
+    },
+    {
+      "result_name": "ML spatial holdout failure",
+      "source_artifact": "outputs/phase_d_holdout.json",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/phase_b/spatial_holdout.py",
+      "parameters": "4-fold quadrant holdout; ML-F features",
+      "evaluation_period": "2001-2024",
+      "status": "VALIDATED",
+      "uncertainty": "SP beats ML on all 4 held-out quadrants",
+      "used_in_final_paper": true,
+      "key_value": "ML does not generalize"
+    },
+    {
+      "result_name": "Omori diagnostic (clustering exists)",
+      "source_artifact": "outputs/STAGE8_REPORT.md",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/etas/omori_diagnostic.py",
+      "parameters": "M>=5 mainshocks; Mc=4.13 target; log time bins",
+      "evaluation_period": "1973-2024",
+      "status": "DIAGNOSTIC",
+      "uncertainty": "Peak R=24x (M>=5), 290x (M>=6) at dt=0.013d",
+      "used_in_final_paper": true,
+      "key_value": "R=24x; clustering EXISTS"
+    },
+    {
+      "result_name": "Coulomb status",
+      "source_artifact": "outputs/stage6_report.md",
+      "source_dataset": "N/A (data-limited)",
+      "code_module": "src/coulomb/",
+      "parameters": "N/A",
+      "evaluation_period": "N/A",
+      "status": "DATA-LIMITED",
+      "uncertainty": "No validated receiver-fault geometry; Coulomb disabled",
+      "used_in_final_paper": true,
+      "key_value": "DISABLED"
+    },
+    {
+      "result_name": "Stage 7 ML vs uniform Poisson",
+      "source_artifact": "outputs/stage7_report.md",
+      "source_dataset": "USGS-only (pre-ISC)",
+      "code_module": "run_stage7.py",
+      "parameters": "Compared ML against uniform Poisson (wrong baseline)",
+      "evaluation_period": "1995-2022",
+      "status": "SUPERSEDED",
+      "uncertainty": "Result was an artifact of comparing against uniform Poisson",
+      "used_in_final_paper": false,
+      "key_value": "SUPERSEDED by Stage 7B"
+    },
+    {
+      "result_name": "Large-event uncertainty (M>=7)",
+      "source_artifact": "outputs/final_uncertainty.csv",
+      "source_dataset": "Merged USGS+ISC",
+      "code_module": "src/phase_b/uncertainty.py",
+      "parameters": "Garwood exact Poisson CI; magnitude conversion sigma=0.41",
+      "evaluation_period": "1973-2024",
+      "status": "DATA-LIMITED",
+      "uncertainty": "N=1; rate=0.019/yr; 95% CI [0.0005, 0.14]",
+      "used_in_final_paper": true,
+      "key_value": "N=1; NOT a precise forecast"
+    }
+  ]
+}

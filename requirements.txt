@@ -1,0 +1,28 @@
+# Stage 2 dependencies. Kept minimal — only what the ingestion/schema layer
+# and the upcoming preprocessing layers need. Heavy ML deps (torch, etc.)
+# are added in Stage 7.
+
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+pyyaml>=6.0
+requests>=2.31
+
+# Geospatial
+shapely>=2.0
+geopandas>=0.14
+
+# Validation / config
+pydantic>=2.5        # optional but used for runtime validation of configs
+
+# Plotting (visualization stage)
+matplotlib>=3.8
+cartopy>=0.22        # for map projections; heavy but standard in seismology
+
+# Bayesian (Stage 5/9) — installed now to avoid surprises later
+pymc>=5.10
+arviz>=0.17
+
+# Note: ObsPy is deliberately NOT a dependency at this stage. It is a heavy
+# package aimed at waveform processing; we use only catalog data. ObsPy can
+# be added in a later stage if continuous-waveform features are needed.

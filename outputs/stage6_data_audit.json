@@ -1,0 +1,107 @@
+{
+  "fields": [
+    {
+      "field": "focal_mechanisms (GCMT)",
+      "class": "D",
+      "source": "not supplied",
+      "value_summary": "0 files",
+      "notes": "GCMT is the gold-standard global CMT catalog. Required for source focal mechanisms."
+    },
+    {
+      "field": "focal_mechanisms (USGS)",
+      "class": "A",
+      "source": "USGS ComCat focal-mechanism product (per-event detail API)",
+      "value_summary": "28 events with focal-mechanism products",
+      "notes": "USGS focal-mechanism products provide strike/dip/rake for moderate-large events."
+    },
+    {
+      "field": "fault_geometry (GEM GAFD traces)",
+      "class": "A",
+      "source": "GEM Global Active Faults Database (Styron & Pagani 2020)",
+      "value_summary": "42 fault traces in region",
+      "notes": "Surface-trace geometry (lon/lat vertices)."
+    },
+    {
+      "field": "fault_dip (GEM GAFD)",
+      "class": "D",
+      "source": "GEM GAFD",
+      "value_summary": "0/42 segments have dip",
+      "notes": "Dip is REQUIRED for receiver-fault \u0394CFS. GEM GAFD is geometry-only for Bangladesh."
+    },
+    {
+      "field": "fault_rake (GEM GAFD)",
+      "class": "D",
+      "source": "GEM GAFD",
+      "value_summary": "0/42 have rake",
+      "notes": "Rake (slip direction) is REQUIRED for receiver-fault \u0394CFS."
+    },
+    {
+      "field": "fault_slip_rate (GEM GAFD)",
+      "class": "D",
+      "source": "GEM GAFD",
+      "value_summary": "0/42 have slip rate",
+      "notes": "Slip rate needed for long-term hazard, not directly for Coulomb \u0394CFS."
+    },
+    {
+      "field": "fault_geometry (published literature)",
+      "class": "D",
+      "source": "Morino et al. 2014; Wang et al. 2014; Steckler et al. 2016",
+      "value_summary": "NOT TRANSCRIBED \u2014 requires manual literature acquisition",
+      "notes": "Primary-literature fault geometry would override GEM GAFD placeholders. Not currently loaded."
+    },
+    {
+      "field": "elastic_params (shear modulus, Poisson's ratio)",
+      "class": "C",
+      "source": "engineering assumption (standard crustal values)",
+      "value_summary": "\u03bc=30 GPa, \u03bd=0.25 (Okada 1992 defaults)",
+      "notes": "No Bangladesh-specific elastic model available. Standard crustal values used; sensitivity tested."
+    },
+    {
+      "field": "effective_friction (\u03bc')",
+      "class": "C",
+      "source": "engineering assumption",
+      "value_summary": "\u03bc'=0.4 (King et al. 1994 typical; range 0.2-0.8 tested)",
+      "notes": "No Bangladesh-specific friction data. Sensitivity analysis required."
+    },
+    {
+      "field": "skempton_coefficient (B)",
+      "class": "C",
+      "source": "engineering assumption",
+      "value_summary": "B=0.5 (typical crystalline crust; range 0.5-1.0)",
+      "notes": "Pore-pressure coupling. No Bangladesh data."
+    },
+    {
+      "field": "regional_stress_orientation",
+      "class": "D",
+      "source": "not available",
+      "value_summary": "No Bangladesh stress map in the World Stress Map database for this region",
+      "notes": "If available, could be used to define 'optimal' receiver faults. Currently unavailable."
+    },
+    {
+      "field": "receiver_fault_orientations",
+      "class": "D",
+      "source": "not available",
+      "value_summary": "No validated receiver-fault dataset for Bangladesh",
+      "notes": "BLOCKING: receiver-fault geometry is required for \u0394CFS. Without it, only stress-tensor components can be computed."
+    },
+    {
+      "field": "coseismic_slip_distributions",
+      "class": "D",
+      "source": "not available",
+      "value_summary": "No finite-fault slip models for Bangladesh events in the catalog",
+      "notes": "For M>7 events, finite-source would improve accuracy; point-source used as approximation."
+    }
+  ],
+  "gcmt_available": false,
+  "gem_gafd_segments_in_region": 42,
+  "gem_gafd_with_dip": 0,
+  "gem_gafd_with_slip_rate": 0,
+  "usgs_focal_mechanisms_available": 28,
+  "real_forecasting_enabled": false,
+  "blocking_gaps": [
+    "receiver-fault geometry (GEM GAFD has traces but NO dip/rake; published literature not transcribed; regional stress unavailable)"
+  ],
+  "notes": [
+    "Real Coulomb forecasting DISABLED due to data gaps. Mathematical prototype and unit tests are implemented; stress-tensor components can be computed from USGS source focal mechanisms on ASSUMED receiver faults (Class C) for diagnostic purposes only, NOT for validated Bangladesh forecasts."
+  ]
+}

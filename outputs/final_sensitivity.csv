@@ -1,0 +1,12 @@
+parameter,scenario,value
+Mc,Mc3.8,"b=0.536,rate=76.610,P7d=0.7697"
+Mc,Mc4.0,"b=0.701,rate=73.006,P7d=0.7532"
+Mc,Mc4.1,"b=0.808,rate=62.098,P7d=0.6958"
+Mc,Mc4.3,"b=0.924,rate=50.553,P7d=0.6205"
+Mc,Mc4.5,"b=1.085,rate=37.524,P7d=0.5128"
+grid_size,0.5deg,"brier=0.0001,ece=0.0045"
+grid_size,1.0deg,"brier=0.0009,ece=0.0175"
+grid_size,2.0deg,"brier=0.0091,ece=0.0667"
+data_source,usgs,"N=2293,Mc=4.550000000000002"
+data_source,isc,"N=5527,Mc=4.250000000000002"
+data_source,merged,"N=5779,Mc=4.050000000000002"

@@ -1,0 +1,4 @@
+K,alpha,branching_ratio_analytic,branching_ratio_empirical,c_days,depth_range_km,depth_regime,logL,mu_total_per_year,n_events,notes,omori_n_mainshocks,omori_peak_R,omori_peak_lag_days,p,sigma_km,temporal_decay_scale_days,triggering_distance_km
+1e-08,0.0,0.0,1e-08,0.05,0.0-25.0,shallow,-2472.81,7.4005,273,K≈0: no triggering detected by MLE; α≈0: no magnitude scaling; Model reduces to background Poisson,403,15.502,0.002167,1.1,10.0,0.5,15.4496
+1e-08,0.0,0.0,1e-08,0.05,25.0-70.0,intermediate,-6816.81,23.3672,862,K≈0: no triggering detected by MLE; α≈0: no magnitude scaling; Model reduces to background Poisson,403,15.502,0.002167,1.1,10.0,0.5,15.4496
+1e-08,0.0,0.0,1e-08,0.05,70.0-800.0,deep,-6211.26,21.0088,775,K≈0: no triggering detected by MLE; α≈0: no magnitude scaling; Model reduces to background Poisson,403,15.502,0.002167,1.1,10.0,0.5,15.4496

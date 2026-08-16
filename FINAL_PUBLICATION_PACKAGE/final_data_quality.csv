@@ -1,0 +1,11 @@
+metric,value,status
+n_events,5779,VALIDATED
+exposure_years,51.89,VALIDATED
+Mc,4.13,VALIDATED
+b_value,0.808,VALIDATED (Mc-sensitive)
+gcmt_available,False,DATA-LIMITED
+bmd_available,False,DATA-LIMITED
+receiver_fault_geometry,False,DATA-LIMITED
+historical_catalog,False,DATA-LIMITED
+M7_events,1,INSUFFICIENT POWER
+M65_events,8,INSUFFICIENT POWER

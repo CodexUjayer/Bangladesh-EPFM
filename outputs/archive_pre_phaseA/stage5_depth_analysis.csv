@@ -1,0 +1,4 @@
+branching_explosive,branching_ratio_n,cv_inter_event_time,depth_group,depth_range_km,etas_K,etas_alpha,etas_converged,etas_loglik,etas_mu,etas_no_triggering,mean_depth,mean_magnitude,median_inter_event_time_days,n_events,n_events_above_Mc,notes
+False,0.0,2.477,shallow,0.0-25.0,0.0,0.0,True,-2057.06,5.144618626179284,True,12.17,4.842,16.729,306,263,No triggering detected in this depth group (K≈0).; Strong temporal clustering (CV_IET=2.48 > 1.5).
+False,0.0,1.279,intermediate,25.0-70.0,0.0,0.0,True,-5653.51,17.62322766106531,True,43.78,4.838,10.925,1036,909,No triggering detected in this depth group (K≈0).
+False,0.0,1.204,deep,70.0-800.0,0.0,0.0,True,-4092.23,15.723680009227378,True,101.85,4.814,12.143,951,815,No triggering detected in this depth group (K≈0).

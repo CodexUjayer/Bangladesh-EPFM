@@ -1,0 +1,1038 @@
+{
+  "7d_4.5": {
+    "evaluations": {
+      "spatial_poisson": {
+        "model_name": "spatial_poisson",
+        "n_test": 832,
+        "n_positive": 10,
+        "base_rate": 0.012,
+        "brier": 0.0116,
+        "brier_poisson": 0.0116,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.0582,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0028,
+        "sharpness": 0.0136,
+        "roc_auc": 0.7827,
+        "pr_auc": 0.0613,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.0092,
+            "obs_freq": 0.012
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (10); high variance in metrics.; spatial_poisson does NOT beat Poisson (Brier 0.0116 >= 0.0116).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "uniform_poisson": {
+        "model_name": "uniform_poisson",
+        "n_test": 832,
+        "n_positive": 10,
+        "base_rate": 0.012,
+        "brier": 0.2052,
+        "brier_poisson": 0.0116,
+        "brier_improvement": -0.1936,
+        "log_likelihood": -0.603,
+        "information_gain_vs_poisson": -0.5448,
+        "expected_calibration_error": 0.4385,
+        "sharpness": 0.0307,
+        "roc_auc": 0.4221,
+        "pr_auc": 0.0117,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 832,
+            "mean_pred": 0.4505,
+            "obs_freq": 0.012
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (10); high variance in metrics.; uniform_poisson does NOT beat Poisson (Brier 0.2052 >= 0.0116).; Non-positive information gain (-0.5448).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_mle": {
+        "model_name": "etas_mle",
+        "n_test": 832,
+        "n_positive": 10,
+        "base_rate": 0.012,
+        "brier": 0.1742,
+        "brier_poisson": 0.0116,
+        "brier_improvement": -0.1626,
+        "log_likelihood": -0.5402,
+        "information_gain_vs_poisson": -0.482,
+        "expected_calibration_error": 0.4029,
+        "sharpness": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.012,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 832,
+            "mean_pred": 0.415,
+            "obs_freq": 0.012
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (10); high variance in metrics.; etas_mle does NOT beat Poisson (Brier 0.1742 >= 0.0116).; Non-positive information gain (-0.4820).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_forced": {
+        "model_name": "etas_forced",
+        "n_test": 832,
+        "n_positive": 10,
+        "base_rate": 0.012,
+        "brier": 0.0428,
+        "brier_poisson": 0.0116,
+        "brier_improvement": -0.0311,
+        "log_likelihood": -0.2255,
+        "information_gain_vs_poisson": -0.1673,
+        "expected_calibration_error": 0.1756,
+        "sharpness": 0.0044,
+        "roc_auc": 0.4144,
+        "pr_auc": 0.0105,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.1876,
+            "obs_freq": 0.012
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (10); high variance in metrics.; etas_forced does NOT beat Poisson (Brier 0.0428 >= 0.0116).; Non-positive information gain (-0.1673).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "bootstrap": {
+      "uniform_poisson": {
+        "delta_brier_mean": -0.19322067949532726,
+        "delta_brier_ci": [
+          -0.20939752420330007,
+          -0.17828663764418576
+        ],
+        "n_origins": 13
+      },
+      "etas_mle": {
+        "delta_brier_mean": -0.162547831212966,
+        "delta_brier_ci": [
+          -0.1672360041763388,
+          -0.15764304676382276
+        ],
+        "n_origins": 13
+      },
+      "etas_forced": {
+        "delta_brier_mean": -0.03109805263244289,
+        "delta_brier_ci": [
+          -0.03350932107271168,
+          -0.028494314245065554
+        ],
+        "n_origins": 13
+      }
+    },
+    "permutation": {
+      "uniform_poisson": {
+        "observed_delta_brier": -0.19359371806638886,
+        "p_value": 0.984,
+        "n_perm": 1000
+      },
+      "etas_mle": {
+        "observed_delta_brier": -0.1626169703634079,
+        "p_value": 1.0,
+        "n_perm": 1000
+      },
+      "etas_forced": {
+        "observed_delta_brier": -0.03114407344176033,
+        "p_value": 0.886,
+        "n_perm": 1000
+      }
+    }
+  },
+  "7d_5.0": {
+    "evaluations": {
+      "spatial_poisson": {
+        "model_name": "spatial_poisson",
+        "n_test": 832,
+        "n_positive": 3,
+        "base_rate": 0.0036,
+        "brier": 0.0035,
+        "brier_poisson": 0.0035,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.019,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0001,
+        "sharpness": 0.0053,
+        "roc_auc": 0.9314,
+        "pr_auc": 0.0778,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.0037,
+            "obs_freq": 0.0036
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (3); high variance in metrics.; spatial_poisson does NOT beat Poisson (Brier 0.0035 >= 0.0035).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "uniform_poisson": {
+        "model_name": "uniform_poisson",
+        "n_test": 832,
+        "n_positive": 3,
+        "base_rate": 0.0036,
+        "brier": 0.0471,
+        "brier_poisson": 0.0035,
+        "brier_improvement": -0.0436,
+        "log_likelihood": -0.2431,
+        "information_gain_vs_poisson": -0.2242,
+        "expected_calibration_error": 0.2085,
+        "sharpness": 0.0051,
+        "roc_auc": 0.6287,
+        "pr_auc": 0.0063,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 832,
+            "mean_pred": 0.2121,
+            "obs_freq": 0.0036
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (3); high variance in metrics.; uniform_poisson does NOT beat Poisson (Brier 0.0471 >= 0.0035).; Non-positive information gain (-0.2242).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_mle": {
+        "model_name": "etas_mle",
+        "n_test": 832,
+        "n_positive": 3,
+        "base_rate": 0.0036,
+        "brier": 0.035,
+        "brier_poisson": 0.0035,
+        "brier_improvement": -0.0315,
+        "log_likelihood": -0.2047,
+        "information_gain_vs_poisson": -0.1857,
+        "expected_calibration_error": 0.177,
+        "sharpness": 0.0091,
+        "roc_auc": 0.4485,
+        "pr_auc": 0.0051,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.1806,
+            "obs_freq": 0.0036
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (3); high variance in metrics.; etas_mle does NOT beat Poisson (Brier 0.0350 >= 0.0035).; Non-positive information gain (-0.1857).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_forced": {
+        "model_name": "etas_forced",
+        "n_test": 832,
+        "n_positive": 3,
+        "base_rate": 0.0036,
+        "brier": 0.0086,
+        "brier_poisson": 0.0035,
+        "brier_improvement": -0.0051,
+        "log_likelihood": -0.0864,
+        "information_gain_vs_poisson": -0.0674,
+        "expected_calibration_error": 0.0706,
+        "sharpness": 0.0032,
+        "roc_auc": 0.3456,
+        "pr_auc": 0.0039,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.0743,
+            "obs_freq": 0.0036
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (3); high variance in metrics.; etas_forced does NOT beat Poisson (Brier 0.0086 >= 0.0035).; Non-positive information gain (-0.0674).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "bootstrap": {
+      "uniform_poisson": {
+        "delta_brier_mean": -0.04351471440114008,
+        "delta_brier_ci": [
+          -0.0452723766408111,
+          -0.04191023371623329
+        ],
+        "n_origins": 13
+      },
+      "etas_mle": {
+        "delta_brier_mean": -0.03147100734156259,
+        "delta_brier_ci": [
+          -0.03362175493722822,
+          -0.029215009852853364
+        ],
+        "n_origins": 13
+      },
+      "etas_forced": {
+        "delta_brier_mean": -0.0050657401694974005,
+        "delta_brier_ci": [
+          -0.005549702278199639,
+          -0.004470921772828036
+        ],
+        "n_origins": 13
+      }
+    },
+    "permutation": {
+      "uniform_poisson": {
+        "observed_delta_brier": -0.043557557335931224,
+        "p_value": 0.857,
+        "n_perm": 1000
+      },
+      "etas_mle": {
+        "observed_delta_brier": -0.0314715615586083,
+        "p_value": 0.988,
+        "n_perm": 1000
+      },
+      "etas_forced": {
+        "observed_delta_brier": -0.005074795235511562,
+        "p_value": 1.0,
+        "n_perm": 1000
+      }
+    }
+  },
+  "30d_4.5": {
+    "evaluations": {
+      "spatial_poisson": {
+        "model_name": "spatial_poisson",
+        "n_test": 832,
+        "n_positive": 40,
+        "base_rate": 0.0481,
+        "brier": 0.0407,
+        "brier_poisson": 0.0407,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.1559,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0103,
+        "sharpness": 0.0537,
+        "roc_auc": 0.8317,
+        "pr_auc": 0.3425,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 801,
+            "mean_pred": 0.0302,
+            "obs_freq": 0.0375
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 31,
+            "mean_pred": 0.2333,
+            "obs_freq": 0.3226
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "spatial_poisson does NOT beat Poisson (Brier 0.0407 >= 0.0407).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "uniform_poisson": {
+        "model_name": "uniform_poisson",
+        "n_test": 832,
+        "n_positive": 40,
+        "base_rate": 0.0481,
+        "brier": 0.808,
+        "brier_poisson": 0.0407,
+        "brier_improvement": -0.7673,
+        "log_likelihood": -2.4459,
+        "information_gain_vs_poisson": -2.29,
+        "expected_calibration_error": 0.8735,
+        "sharpness": 0.0177,
+        "roc_auc": 0.6616,
+        "pr_auc": 0.0876,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 832,
+            "mean_pred": 0.9215,
+            "obs_freq": 0.0481
+          }
+        ],
+        "notes": "uniform_poisson does NOT beat Poisson (Brier 0.8080 >= 0.0407).; Non-positive information gain (-2.2900).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_mle": {
+        "model_name": "etas_mle",
+        "n_test": 832,
+        "n_positive": 40,
+        "base_rate": 0.0481,
+        "brier": 0.7707,
+        "brier_poisson": 0.0407,
+        "brier_improvement": -0.7299,
+        "log_likelihood": -2.1921,
+        "information_gain_vs_poisson": -2.0362,
+        "expected_calibration_error": 0.8514,
+        "sharpness": 0.0,
+        "roc_auc": 0.5,
+        "pr_auc": 0.0481,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 832,
+            "mean_pred": 0.8995,
+            "obs_freq": 0.0481
+          }
+        ],
+        "notes": "etas_mle does NOT beat Poisson (Brier 0.7707 >= 0.0407).; Non-positive information gain (-2.0362).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_forced": {
+        "model_name": "etas_forced",
+        "n_test": 832,
+        "n_positive": 40,
+        "base_rate": 0.0481,
+        "brier": 0.3324,
+        "brier_poisson": 0.0407,
+        "brier_improvement": -0.2917,
+        "log_likelihood": -0.8596,
+        "information_gain_vs_poisson": -0.7037,
+        "expected_calibration_error": 0.5356,
+        "sharpness": 0.0063,
+        "roc_auc": 0.6374,
+        "pr_auc": 0.0798,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 832,
+            "mean_pred": 0.5837,
+            "obs_freq": 0.0481
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "etas_forced does NOT beat Poisson (Brier 0.3324 >= 0.0407).; Non-positive information gain (-0.7037).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "bootstrap": {
+      "uniform_poisson": {
+        "delta_brier_mean": -0.7675184242670907,
+        "delta_brier_ci": [
+          -0.7919108848678713,
+          -0.7411088609173
+        ],
+        "n_origins": 13
+      },
+      "etas_mle": {
+        "delta_brier_mean": -0.7305285154015361,
+        "delta_brier_ci": [
+          -0.7622373559835202,
+          -0.6946191075215844
+        ],
+        "n_origins": 13
+      },
+      "etas_forced": {
+        "delta_brier_mean": -0.2919788133308217,
+        "delta_brier_ci": [
+          -0.30900198072794227,
+          -0.2730428465397243
+        ],
+        "n_origins": 13
+      }
+    },
+    "permutation": {
+      "uniform_poisson": {
+        "observed_delta_brier": -0.7672969039267152,
+        "p_value": 0.132,
+        "n_perm": 1000
+      },
+      "etas_mle": {
+        "observed_delta_brier": -0.7299425615939719,
+        "p_value": 0.998,
+        "n_perm": 1000
+      },
+      "etas_forced": {
+        "observed_delta_brier": -0.2916930679274242,
+        "p_value": 0.478,
+        "n_perm": 1000
+      }
+    }
+  },
+  "30d_5.0": {
+    "evaluations": {
+      "spatial_poisson": {
+        "model_name": "spatial_poisson",
+        "n_test": 832,
+        "n_positive": 7,
+        "base_rate": 0.0084,
+        "brier": 0.0083,
+        "brier_poisson": 0.0083,
+        "brier_improvement": 0.0,
+        "log_likelihood": -0.0412,
+        "information_gain_vs_poisson": 0.0,
+        "expected_calibration_error": 0.0072,
+        "sharpness": 0.0219,
+        "roc_auc": 0.9024,
+        "pr_auc": 0.0649,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 832,
+            "mean_pred": 0.0156,
+            "obs_freq": 0.0084
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (7); high variance in metrics.; spatial_poisson does NOT beat Poisson (Brier 0.0083 >= 0.0083).; Non-positive information gain (0.0000).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "uniform_poisson": {
+        "model_name": "uniform_poisson",
+        "n_test": 832,
+        "n_positive": 7,
+        "base_rate": 0.0084,
+        "brier": 0.4072,
+        "brier_poisson": 0.0083,
+        "brier_improvement": -0.399,
+        "log_likelihood": -1.017,
+        "information_gain_vs_poisson": -0.9758,
+        "expected_calibration_error": 0.6315,
+        "sharpness": 0.0099,
+        "roc_auc": 0.5887,
+        "pr_auc": 0.011,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 832,
+            "mean_pred": 0.64,
+            "obs_freq": 0.0084
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (7); high variance in metrics.; uniform_poisson does NOT beat Poisson (Brier 0.4072 >= 0.0083).; Non-positive information gain (-0.9758).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_mle": {
+        "model_name": "etas_mle",
+        "n_test": 832,
+        "n_positive": 7,
+        "base_rate": 0.0084,
+        "brier": 0.3285,
+        "brier_poisson": 0.0083,
+        "brier_improvement": -0.3202,
+        "log_likelihood": -0.8516,
+        "information_gain_vs_poisson": -0.8104,
+        "expected_calibration_error": 0.5653,
+        "sharpness": 0.0201,
+        "roc_auc": 0.3448,
+        "pr_auc": 0.0076,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 704,
+            "mean_pred": 0.5677,
+            "obs_freq": 0.0085
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 128,
+            "mean_pred": 0.6067,
+            "obs_freq": 0.0078
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (7); high variance in metrics.; etas_mle does NOT beat Poisson (Brier 0.3285 >= 0.0083).; Non-positive information gain (-0.8104).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      },
+      "etas_forced": {
+        "model_name": "etas_forced",
+        "n_test": 832,
+        "n_positive": 7,
+        "base_rate": 0.0084,
+        "brier": 0.0811,
+        "brier_poisson": 0.0083,
+        "brier_improvement": -0.0728,
+        "log_likelihood": -0.3337,
+        "information_gain_vs_poisson": -0.2925,
+        "expected_calibration_error": 0.2693,
+        "sharpness": 0.0107,
+        "roc_auc": 0.4224,
+        "pr_auc": 0.0086,
+        "reliability_bins": [
+          {
+            "lo": 0.0,
+            "hi": 0.2,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.2,
+            "hi": 0.4,
+            "n": 832,
+            "mean_pred": 0.2777,
+            "obs_freq": 0.0084
+          },
+          {
+            "lo": 0.4,
+            "hi": 0.6,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.6,
+            "hi": 0.8,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          },
+          {
+            "lo": 0.8,
+            "hi": 1.0,
+            "n": 0,
+            "mean_pred": null,
+            "obs_freq": null
+          }
+        ],
+        "notes": "Small positive count (7); high variance in metrics.; etas_forced does NOT beat Poisson (Brier 0.0811 >= 0.0083).; Non-positive information gain (-0.2925).; ROC-AUC and PR-AUC are SECONDARY diagnostics."
+      }
+    },
+    "bootstrap": {
+      "uniform_poisson": {
+        "delta_brier_mean": -0.3991748556496808,
+        "delta_brier_ci": [
+          -0.41005265186383405,
+          -0.3884931084720081
+        ],
+        "n_origins": 13
+      },
+      "etas_mle": {
+        "delta_brier_mean": -0.32061731098025736,
+        "delta_brier_ci": [
+          -0.3369153661923136,
+          -0.304782145228433
+        ],
+        "n_origins": 13
+      },
+      "etas_forced": {
+        "delta_brier_mean": -0.07293706132519413,
+        "delta_brier_ci": [
+          -0.07773140275951404,
+          -0.06802745212183021
+        ],
+        "n_origins": 13
+      }
+    },
+    "permutation": {
+      "uniform_poisson": {
+        "observed_delta_brier": -0.3989943329558165,
+        "p_value": 0.996,
+        "n_perm": 1000
+      },
+      "etas_mle": {
+        "observed_delta_brier": -0.32020614541608683,
+        "p_value": 1.0,
+        "n_perm": 1000
+      },
+      "etas_forced": {
+        "observed_delta_brier": -0.07280715107070378,
+        "p_value": 0.535,
+        "n_perm": 1000
+      }
+    }
+  }
+}

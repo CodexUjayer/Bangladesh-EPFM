@@ -1,0 +1,28 @@
+{
+  "model_version": "FINAL_v3.0_CANDIDATE_ADAPTIVE_SPATIAL",
+  "control": "FINAL_v1.0_FROZEN (immutable)",
+  "comparator": "FINAL_v2.0_CANDIDATE_BAYESIAN_SPATIAL (unchanged)",
+  "status": "EXPERIMENTAL \u2014 RETROSPECTIVE VALIDATION COMPLETE",
+  "generated_at_utc": "2026-08-12T09:40:53.061003+00:00",
+  "frozen_mc": 4.13,
+  "frozen_b": 0.808,
+  "grid": "1.0 deg, 64 cells (matches v1/v2 for fair comparison)",
+  "evaluation_period": "2015-2023 (untouched)",
+  "selection_period": "2010-2014 (5 yearly origins)",
+  "development_period": "events before 2010-01-01",
+  "n_forecast_origins_eval": 9,
+  "best_variant": "D_epanechnikov_nn",
+  "best_variant_config": {
+    "variant": "D_epanechnikov_nn",
+    "kernel": "epanechnikov",
+    "adaptive": true,
+    "bandwidth_deg": 0.5,
+    "nn_k": 50
+  },
+  "n_bootstrap_epistemic": 200,
+  "n_paired_bootstrap": 500,
+  "n_permutations": 1000,
+  "random_seed": 42,
+  "prospective_eligible": false,
+  "verdict": "D"
+}

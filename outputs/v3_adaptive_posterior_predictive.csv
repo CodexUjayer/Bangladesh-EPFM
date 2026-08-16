@@ -1,0 +1,16 @@
+metric,value_high,value_low,value_mean
+observed_total,,,1890
+sim_total_mean,,,2364.8
+sim_total_ci,2457,2268,
+observed_occupied_cells,,,61
+sim_occupied_mean,,,61.3
+sim_occupied_ci,64,58,
+observed_max_count,,,217
+sim_max_mean,,,396.8
+sim_max_ci,437,362,
+observed_gini,,,0.6493
+sim_gini_mean,,,0.6835
+sim_gini_ci,0.6991,0.6673,
+observed_top3_fraction,,,0.3101
+sim_top3_mean,,,0.4128
+sim_top3_ci,0.4339,0.3929,

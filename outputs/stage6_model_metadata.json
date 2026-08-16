@@ -1,0 +1,25 @@
+{
+  "stage": 6,
+  "generated_at_utc": "2026-08-09T08:36:38.587235+00:00",
+  "catalog_metadata": {
+    "catalog_file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/usgs/usgs_bangladesh_1973_2025_m25.csv",
+    "catalog_version": "usgs_bangladesh_1973_2025_m25",
+    "n_events_total": 2293,
+    "geographic_region": "lat [20,28] x lon [88,96]"
+  },
+  "model_version": "stage6_coulomb_prototype_v0.1",
+  "real_forecasting_enabled": false,
+  "blocking_gaps": [
+    "receiver-fault geometry (GEM GAFD has traces but NO dip/rake; published literature not transcribed; regional stress unavailable)"
+  ],
+  "elastic_params": {
+    "shear_modulus_GPa": 30.0,
+    "poissons_ratio": 0.25,
+    "effective_friction": 0.4,
+    "skempton_coefficient": 0.5
+  },
+  "coupling_formulation": "rate_and_state_dieterich1994",
+  "data_integrity_rule": "No fabricated Bangladesh fault geometry, slip, rake, dip, receiver faults, friction, or stress fields.",
+  "stage5_conclusion_carried_forward": "Local maximum-likelihood ETAS estimation does not identify a statistically supported triggering component in the current USGS-only catalog. Corrected prospective backtesting shows that neither locally fitted nor externally informed standard ETAS produces measurable predictive skill beyond the properly constructed expanding-window Poisson baseline. However, independent Omori and spatial diagnostics demonstrate strong post-mainshock temporal and spatial clustering. Therefore, the absence of ETAS predictive improvement must not be interpreted as evidence that earthquake triggering is absent. It indicates that the tested standard ETAS formulation does not successfully convert the observed clustering into improved prospective forecasts.",
+  "scientific_success_criterion": "Coulomb is successful only if it provides statistically supported out-of-sample improvement over the corrected Poisson baseline. 'Looks physically plausible' is NOT sufficient."
+}

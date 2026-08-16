@@ -1,0 +1,26 @@
+{
+  "acquired": {
+    "usgs": {
+      "file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/usgs/usgs_bangladesh_1973_2025_m25.csv",
+      "n_events": 2293,
+      "floor": 3.2
+    },
+    "isc": {
+      "file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/isc/isc_bangladesh_1973_2025_m3.txt",
+      "n_events": 5533,
+      "floor": 2.4
+    }
+  },
+  "unavailable": {
+    "gcmt": "All download paths failed (404/410/timeout). ISC includes MW from contributing agencies indirectly.",
+    "isc-gem": "Requires registration at isc.ac.uk. Download page is a form, not data.",
+    "bmd": "Requires formal institutional request to Bangladesh Meteorological Department.",
+    "historical": "Alam & Dominey-Howes (2016) requires manual literature transcription."
+  },
+  "merged_catalog": {
+    "n_events": 5779,
+    "n_multi_source": 2042,
+    "min_magnitude": 2.4,
+    "max_magnitude": 7.23
+  }
+}

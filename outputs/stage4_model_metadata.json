@@ -1,0 +1,97 @@
+{
+  "stage": 4,
+  "generated_at_utc": "2026-08-09T07:45:52.085640+00:00",
+  "catalog_metadata": {
+    "catalog_file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/usgs/usgs_bangladesh_1973_2025_m25.csv",
+    "catalog_version": "usgs_bangladesh_1973_2025_m25 (USGS ComCat M>=2.5 query; floor M3.2)",
+    "n_events_total": 2293,
+    "time_range": "1973-02-10T04:25:29.700000+00:00 -> 2024-12-20T13:13:08.914000+00:00",
+    "exposure_years": 51.85863497902248,
+    "working_threshold": 4.5,
+    "mc_scenarios": [
+      4.0,
+      4.5,
+      5.0
+    ],
+    "geographic_region": "lat [20,28] x lon [88,96]"
+  },
+  "model_version": "stage4_temporal_poisson_gr_v0.1",
+  "probability_interpretation": {
+    "rate_lambda": "events per year, N/T",
+    "expected_count": "lambda * horizon (NOT a probability)",
+    "probability_at_least_one": "1 - exp(-lambda * horizon)",
+    "conditional_on": "observed catalog and working Mc"
+  },
+  "working_threshold": 4.5,
+  "mc_scenarios": [
+    4.0,
+    4.5,
+    5.0
+  ],
+  "mc_caveat": "Mc is a working range (M3.5-4.5), NOT a validated threshold. USGS ComCat floor ~M3.2. True Mc unverifiable below ~M3.5 without BMD/ISC data.",
+  "poisson_thresholds": [
+    4.5,
+    5.0,
+    5.5,
+    6.0,
+    6.5,
+    7.0
+  ],
+  "gr_thresholds": [
+    4.0,
+    4.5,
+    5.0
+  ],
+  "large_event_thresholds": [
+    6.5,
+    7.0
+  ],
+  "backtest_configs": [
+    {
+      "threshold": 4.5,
+      "horizon": "7d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 4.5,
+      "horizon": "30d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 4.5,
+      "horizon": "90d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 5.0,
+      "horizon": "7d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 5.0,
+      "horizon": "30d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 5.0,
+      "horizon": "90d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 5.5,
+      "horizon": "30d",
+      "n_origins": 29
+    },
+    {
+      "threshold": 6.0,
+      "horizon": "90d",
+      "n_origins": 29
+    }
+  ],
+  "spatial_grid": {
+    "cell_size_deg": 1.0,
+    "n_cells": 64,
+    "n_cells_with_events": 61,
+    "n_cells_low_statistics": 20
+  }
+}

@@ -1,0 +1,249 @@
+# Data source inventory with A/B/C/D classification.
+#
+# A = Required for the target product
+# B = Highly useful, improves the product materially
+# C = Optional / nice-to-have
+# D = Currently unavailable / placeholder
+#
+# This file is the authoritative inventory. The Python DataSourceRegistry
+# (src/ingestion/sources.py) mirrors these classifications programmatically.
+# Any change here must be reflected there.
+
+# ---------------------------------------------------------------------------
+# PRODUCT 1: SHORT-TERM SEISMICITY FORECAST (1-30 day horizons) — PRIMARY
+# ---------------------------------------------------------------------------
+product_1_short_term_forecast:
+  description: >
+    Operational probabilistic forecast of earthquake occurrence over 24h,
+    7-day, and 30-day horizons. Methods: ETAS baseline, ETAS+Coulomb
+    (when fault data exist), ML/transfer-learning. Output: P(>=1 event
+    >= Mc) per grid cell, expected rate, calibrated uncertainty.
+
+  required_datasets:
+    - source_id: usgs
+      class: A
+      why: "Primary real-time catalog; only source for recent M4+ events."
+
+    - source_id: isc-gem
+      class: A
+      why: "Authoritative homogenized Mw back to 1904; anchors magnitude
+            conversion and long historical baseline for ETAS parameter
+            stability."
+
+    - source_id: gcmt
+      class: A
+      why: "Authoritative Mw and focal mechanisms for M>=5.5; required
+            for Coulomb stress on large events."
+
+    - source_id: magnitude-relations
+      class: A
+      why: "Scordilis (2006) global mb/MS->Mw relations are the only
+            published fallback for non-Mw events. No Bangladesh-specific
+            relations exist; none are invented."
+
+    - source_id: usgs-global-tl
+      class: A
+      why: "Pretraining catalogs for the ML/transfer-learning component
+            (Japan, Taiwan, California, Indonesia, China, Himalaya,
+            Myanmar, NE India)."
+
+  highly_useful_datasets:
+    - source_id: isc
+      class: B
+      why: "Cross-check source; provides multiple magnitudes per event
+            for uncertainty estimation."
+
+    - source_id: gem-gafd
+      class: B
+      why: "Fault-trace skeleton for Coulomb module and ML distance-to-
+            fault features. Slip rates often missing -> placeholders."
+
+  optional_datasets:
+    - source_id: gnss-strain
+      class: C
+      why: "Optional ML feature and long-term moment budget. Not required
+            for the ETAS baseline."
+
+    - source_id: plate-motion
+      class: C
+      why: "Coarse domain segmentation prior for transfer learning."
+
+    - source_id: boundaries
+      class: C
+      why: "Visualization only."
+
+  unavailable_datasets:
+    - source_id: bmd
+      class: D
+      why: "Not publicly downloadable. Requires formal institutional
+            request. System runs without it; if obtained later, it slots
+            in as a supplementary local source."
+
+# ---------------------------------------------------------------------------
+# PRODUCT 2: LONG-TERM LARGE-EARTHQUAKE HAZARD RESEARCH — SECONDARY
+# ---------------------------------------------------------------------------
+product_2_long_term_hazard:
+  description: >
+    Research product estimating recurrence rates, Mmax distributions, and
+    long-term probabilities for rare M6-M8+ events over months/years/
+    decades. Methods: Gutenberg-Richter, Bayesian priors, fault-based
+    moment budgets, PSHA-compatible concepts. Explicitly NOT a short-term
+    prediction.
+
+  required_datasets:
+    - source_id: usgs
+      class: A
+      why: "Instrumental catalog for rate estimation."
+
+    - source_id: isc-gem
+      class: A
+      why: "Long historical Mw baseline (1904+) for recurrence modeling."
+
+    - source_id: gcmt
+      class: A
+      why: "Focal mechanisms for source characterization."
+
+    - source_id: historical
+      class: A
+      why: "Only source for pre-instrumental M7-8+ events (1762 Arakan,
+            1897 Shillong, 1918 Srimangal). Essential for Mmax and
+            recurrence."
+
+    - source_id: published-fault-studies
+      class: A
+      why: "Authoritative fault geometry, slip rate, recurrence from
+            primary literature (Morino et al. 2014; Wang et al. 2014;
+            Steckler et al. 2016). Without these, fault-based hazard
+            remains placeholder."
+
+    - source_id: magnitude-relations
+      class: A
+      why: "Magnitude homogenization."
+
+  highly_useful_datasets:
+    - source_id: gem-gafd
+      class: B
+      why: "Fault-trace skeleton; supplemented by published studies."
+
+    - source_id: isc
+      class: B
+      why: "Multi-magnitude uncertainty."
+
+    - source_id: gnss-strain
+      class: B
+      why: "Moment-budget constraint from geodetic strain (Steckler et
+            al. 2016). Strongly improves long-term rate estimates if
+            obtained."
+
+  optional_datasets:
+    - source_id: plate-motion
+      class: C
+      why: "Regionalization prior."
+
+    - source_id: boundaries
+      class: C
+      why: "Visualization."
+
+  unavailable_datasets:
+    - source_id: gsb-faults
+      class: D
+      why: "Not publicly downloadable. Requires formal request to
+            Geological Survey of Bangladesh."
+
+    - source_id: bmd
+      class: D
+      why: "As above."
+
+# ---------------------------------------------------------------------------
+# MINIMUM VIABLE DATASET (MVD) for the first working baseline model
+# ---------------------------------------------------------------------------
+#
+# This is the absolute minimum required to build and test Baselines B1-B3
+# (spatial Poisson, temporal Poisson, Gutenberg-Richter) and the ETAS model
+# (Stage 5). All advanced components (Coulomb, ML, transfer learning) can
+# remain DISABLED with the MVD.
+#
+# The MVD consists entirely of PUBLIC, freely accessible data.
+minimum_viable_dataset:
+  catalog:
+    - source: usgs
+      endpoint: "https://earthquake.usgs.gov/fdsnws/event/1/query"
+      query:
+        format: csv
+        starttime: "1973-01-01"
+        endtime: "2025-01-01"
+        minlatitude: 20.0
+        maxlatitude: 28.0
+        minlongitude: 88.0
+        maxlongitude: 96.0
+        minmagnitude: 4.0
+        eventtype: "earthquake"
+        orderby: "time-asc"
+      expected_events: "~1500-2500 (M4+ over 50 years in this region)"
+      provides: "Primary catalog for ETAS calibration."
+
+    - source: gcmt
+      endpoint: "https://www.globalcmt.org/CMTsearch.html"
+      query:
+        region: [20.0, 28.0, 88.0, 96.0]
+        starttime: "1976-01-01"
+        endtime: "2025-01-01"
+        min_magnitude: 5.0
+      expected_events: "~150-300 (M5+ since 1976)"
+      provides: "Authoritative Mw and focal mechanisms for M>=5.5."
+
+  magnitude_conversion:
+    policy: "lenient"
+    relations: ["scordilis2006_mb_to_mw", "scordilis2006_ms_to_mw_low",
+                "scordilis2006_ms_to_mw_high"]
+    note: "ML events flagged as needs_regional_relation; NOT converted."
+
+  what_can_be_built_with_mvd:
+    - "B1: Spatial Poisson baseline"
+    - "B2: Temporal Poisson baseline"
+    - "B3: Gutenberg-Richter rate baseline"
+    - "Completeness analysis (Mc) via MAXC, GFT, Stepp"
+    - "Declustering (Gardner-Knopoff, Reasenberg)"
+    - "Stage 5: ETAS model fitting + forecast"
+    - "Stage 9: Probability calibration (reliability, isotonic)"
+    - "Stage 10: Retrospective backtesting"
+    - "Stage 11: Forecast engine (statistical branch only)"
+
+  what_requires_more_data:
+    - "Stage 6 Coulomb: requires fault geometry (gem-gafd + published studies)"
+    - "Stage 7 ML: requires pretraining catalogs (usgs-global-tl)"
+    - "Stage 8 Transfer learning: requires domain similarity analysis"
+    - "Product 2 long-term Mmax: requires historical catalog (Alam & Dominey-Howes 2016)"
+    - "GNSS strain features: optional, requires Steckler et al. 2016 data"
+
+# ---------------------------------------------------------------------------
+# TRANSFER-LEARNING PRETRAINING REGIONS (Stage 8)
+# ---------------------------------------------------------------------------
+transfer_learning_regions:
+  # Bboxes for tectonically analogous regions used in ML pretraining.
+  # Domain similarity is verified BEFORE use (Stage 8); negative transfer
+  # is explicitly tested.
+  - name: "japan"
+    bbox: [30.0, 46.0, 129.0, 146.0]
+    tectonic_setting: "subduction + intraplate"
+  - name: "taiwan"
+    bbox: [21.0, 26.0, 119.0, 123.0]
+    tectonic_setting: "collision + subduction"
+  - name: "california"
+    bbox: [32.0, 42.0, -125.0, -114.0]
+    tectonic_setting: "transform"
+  - name: "sumatra"
+    bbox: [-10.0, 6.0, 95.0, 106.0]
+    tectonic_setting: "subduction"
+  - name: "himalaya_west"
+    bbox: [28.0, 36.0, 73.0, 82.0]
+    tectonic_setting: "continental collision"
+  - name: "himalaya_east"
+    bbox: [26.0, 32.0, 82.0, 92.0]
+    tectonic_setting: "continental collision (closer analog to Bangladesh)"
+  - name: "myanmar_north"
+    bbox: [22.0, 28.0, 94.0, 99.0]
+    tectonic_setting: "subduction + transform (closest analog)"
+  - name: "china_southwest"
+    bbox: [25.0, 33.0, 97.0, 105.0]
+    tectonic_setting: "continental collision"

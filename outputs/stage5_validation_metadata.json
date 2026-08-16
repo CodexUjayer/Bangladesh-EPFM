@@ -1,0 +1,31 @@
+{
+  "stage": "5_validation",
+  "generated_at_utc": "2026-08-09T09:15:52.438168+00:00",
+  "catalog_metadata": {
+    "catalog_file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/usgs/usgs_bangladesh_1973_2025_m25.csv",
+    "catalog_version": "usgs_bangladesh_1973_2025_m25",
+    "n_events_total": 2293,
+    "exposure_years": 51.85863497902248,
+    "working_threshold": 4.5,
+    "geographic_region": "lat [20,28] x lon [88,96]"
+  },
+  "model_version": "stage5_etas_validation_v0.1",
+  "external_params_provenance": {
+    "default": "Literature-informed (Ogata 1998; Zhuang 2011; Marsan & Lenglin\u00e9 2010). NOT Bangladesh-calibrated.",
+    "single_prior_experiment": true,
+    "published_priors_tested": [
+      "ogata1998_california",
+      "zhuang2011_japan",
+      "marsan2010_global"
+    ]
+  },
+  "sensitivity_summary": {
+    "n_param_sets": 23,
+    "n_beat_poisson": 0,
+    "frac_beat_poisson": 0.0,
+    "robust": false
+  },
+  "no_tuning_on_backtest": true,
+  "mutual_exclusivity_enforced": true,
+  "corrected_conclusion": "Local maximum-likelihood ETAS estimation does not identify a statistically supported triggering component in the current USGS-only catalog. An externally informed ETAS parameterization shows promising predictive improvement for M>=5 post-mainshock forecasts, but the robustness, transferability, and independent validation of this improvement remain unresolved."
+}

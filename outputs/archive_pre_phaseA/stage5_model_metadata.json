@@ -1,0 +1,84 @@
+{
+  "stage": 5,
+  "generated_at_utc": "2026-08-09T08:07:58.402797+00:00",
+  "catalog_metadata": {
+    "catalog_file": "/home/z/my-project/bangladesh_eq_forecast/data/raw/usgs/usgs_bangladesh_1973_2025_m25.csv",
+    "catalog_version": "usgs_bangladesh_1973_2025_m25",
+    "n_events_total": 2293,
+    "exposure_years": 51.85863497902248,
+    "mc_scenarios": [
+      4.0,
+      4.5,
+      5.0
+    ],
+    "working_threshold": 4.5,
+    "geographic_region": "lat [20,28] x lon [88,96]"
+  },
+  "model_version": "stage5_etas_v0.1",
+  "etas_formulation": {
+    "intensity": "lambda(x,y,t) = mu(x,y) + sum_i K*exp[alpha*(M_i-Mc)]*g(t-t_i)*f(x-x_i,y-y_i;M_i)",
+    "omori": "g(tau) = (p-1)*c^{p-1} / (tau+c)^p  (normalized)",
+    "spatial_kernel": "power-law: f(r) = (q-1)/(pi*s^2) * [1+(r/s)^2]^(-(1+q)), s=sigma*exp(gamma*(M-Mc))",
+    "branching_ratio": "n = K*beta/(beta-alpha) for alpha<beta"
+  },
+  "mc_scenarios": [
+    4.0,
+    4.5,
+    5.0
+  ],
+  "mc_caveat": "Mc is a working range (M3.5-4.5), NOT a validated threshold.",
+  "no_data_leakage": true,
+  "leakage_controls": [
+    "Training window ends before forecast origin",
+    "Background mu estimated from training events only",
+    "No future aftershocks used in intensity",
+    "No future declustering labels",
+    "No future magnitude information"
+  ],
+  "etas_fits_summary": [
+    {
+      "Mc": 4.0,
+      "converged": true,
+      "log_likelihood": -11483.562739777326,
+      "n_events": 2288
+    },
+    {
+      "Mc": 4.5,
+      "converged": true,
+      "log_likelihood": -10454.155354905612,
+      "n_events": 1987
+    },
+    {
+      "Mc": 5.0,
+      "converged": true,
+      "log_likelihood": -4180.21461478076,
+      "n_events": 640
+    }
+  ],
+  "backtest_configs": [
+    {
+      "threshold": 4.5,
+      "horizon": "7d",
+      "window_type": "post_mainshock",
+      "n_origins": 1920
+    },
+    {
+      "threshold": 4.5,
+      "horizon": "30d",
+      "window_type": "post_mainshock",
+      "n_origins": 1919
+    },
+    {
+      "threshold": 5.0,
+      "horizon": "7d",
+      "window_type": "post_mainshock",
+      "n_origins": 1920
+    },
+    {
+      "threshold": 5.0,
+      "horizon": "30d",
+      "window_type": "post_mainshock",
+      "n_origins": 1919
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "scenarios": {
+    "4.0": {
+      "b_value": 0.49304588082580153,
+      "b_sigma": 0.004153617830882297,
+      "a_value": 5.331259749362469,
+      "n_above_mc": 2288,
+      "rate_per_year": 44.11994262721198,
+      "poisson_probabilities": {
+        "24h": 0.11378333878124836,
+        "7d": 0.5706817259411248,
+        "30d": 0.9733192938129245,
+        "90d": 0.9999810070702887,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 4.551592606637669,
+          "P_1yr": 0.9894496116217952
+        },
+        "6.5": {
+          "rate_per_year": 2.58012319419103,
+          "P_1yr": 0.924235330319301
+        },
+        "7.0": {
+          "rate_per_year": 1.462572833845994,
+          "P_1yr": 0.7683604626359137
+        }
+      },
+      "defensibility": "POTENTIALLY BELOW DEFENSIBLE COMPLETENESS: USGS floor is M3.2; Stage 3 audit showed only 167 events in [3.2, 4.0). Mc=4.0 is at the catalog floor and the FMD is truncated there. b-value at Mc=4.0 is biased low (0.49) due to truncation."
+    },
+    "4.5": {
+      "b_value": 0.9514856534308522,
+      "b_sigma": 0.014760083692418418,
+      "a_value": 7.579445951537969,
+      "n_above_mc": 1987,
+      "rate_per_year": 38.315701923195014,
+      "poisson_probabilities": {
+        "24h": 0.0995878487682369,
+        "7d": 0.5201677535318658,
+        "30d": 0.9570225723761776,
+        "90d": 0.9999206181432551,
+        "1y": 1.0
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 1.4312350057650638,
+          "P_1yr": 0.7609864432282754
+        },
+        "6.5": {
+          "rate_per_year": 0.47859496255009254,
+          "P_1yr": 0.3803465832893327
+        },
+        "7.0": {
+          "rate_per_year": 0.1600388037294299,
+          "P_1yr": 0.14788927674927044
+        }
+      },
+      "defensibility": "WORKING THRESHOLD: conservative; FMD robustly sampled above 4.5."
+    },
+    "5.0": {
+      "b_value": 1.426698064088519,
+      "b_sigma": 0.05603897060666733,
+      "a_value": 9.938991178600995,
+      "n_above_mc": 640,
+      "rate_per_year": 12.341242692926427,
+      "poisson_probabilities": {
+        "24h": 0.03322402552085457,
+        "7d": 0.21062940570250377,
+        "30d": 0.6371096043361835,
+        "90d": 0.952211167280363,
+        "1y": 0.9999956321632439
+      },
+      "large_event_extrapolation": {
+        "6.0": {
+          "rate_per_year": 0.46129815006453057,
+          "P_1yr": 0.3695353237107444
+        },
+        "6.5": {
+          "rate_per_year": 0.08925502601818318,
+          "P_1yr": 0.08538770610197133
+        },
+        "7.0": {
+          "rate_per_year": 0.01726965449220235,
+          "P_1yr": 0.0171213887354138
+        }
+      },
+      "defensibility": "ROBUST: fewer events but completeness is certain."
+    }
+  },
+  "defensibility": {
+    "4.0": "POTENTIALLY BELOW DEFENSIBLE COMPLETENESS: USGS floor is M3.2; Stage 3 audit showed only 167 events in [3.2, 4.0). Mc=4.0 is at the catalog floor and the FMD is truncated there. b-value at Mc=4.0 is biased low (0.49) due to truncation.",
+    "4.5": "WORKING THRESHOLD: conservative; FMD robustly sampled above 4.5.",
+    "5.0": "ROBUST: fewer events but completeness is certain."
+  }
+}

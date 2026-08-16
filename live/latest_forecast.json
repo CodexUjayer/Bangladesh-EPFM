@@ -1,0 +1,2614 @@
+{
+  "forecast_timestamp": "2026-08-11T08:21:08.541342+00:00",
+  "model_version": "FINAL_v1.0_FROZEN",
+  "frozen_mc": 4.13,
+  "frozen_b": 0.808,
+  "catalog_n_events": 5781,
+  "catalog_start": "1973-02-10T04:25:30.001000+00:00",
+  "catalog_end": "2026-08-06T20:32:48.799000+00:00",
+  "forecasts": {
+    "M4.5_7d": {
+      "threshold": 4.5,
+      "horizon": "7d",
+      "horizon_years": 0.019165,
+      "regional_rate_per_year": 36.4312,
+      "regional_probability": 0.502522,
+      "n_cells": 64,
+      "cells": [
+        {
+          "cell_id": "cell_00_00",
+          "lat_center": 20.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_00_01",
+          "lat_center": 20.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_00_02",
+          "lat_center": 20.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_00_03",
+          "lat_center": 20.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_00_04",
+          "lat_center": 20.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_00_05",
+          "lat_center": 20.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.373845,
+          "probability": 0.007139,
+          "probability_lower": 0.004367,
+          "probability_upper": 0.011004
+        },
+        {
+          "cell_id": "cell_00_06",
+          "lat_center": 20.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.691614,
+          "probability": 0.013167,
+          "probability_lower": 0.009289,
+          "probability_upper": 0.018104
+        },
+        {
+          "cell_id": "cell_00_07",
+          "lat_center": 20.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.006072,
+          "probability_lower": 0.003541,
+          "probability_upper": 0.009703
+        },
+        {
+          "cell_id": "cell_01_00",
+          "lat_center": 21.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_01_01",
+          "lat_center": 21.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_01_02",
+          "lat_center": 21.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_01_03",
+          "lat_center": 21.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.00179,
+          "probability_lower": 0.000581,
+          "probability_upper": 0.004171
+        },
+        {
+          "cell_id": "cell_01_04",
+          "lat_center": 21.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.00429,
+          "probability_lower": 0.002219,
+          "probability_upper": 0.007481
+        },
+        {
+          "cell_id": "cell_01_05",
+          "lat_center": 21.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.915921,
+          "probability": 0.0174,
+          "probability_lower": 0.012902,
+          "probability_upper": 0.02294
+        },
+        {
+          "cell_id": "cell_01_06",
+          "lat_center": 21.5,
+          "lon_center": 94.5,
+          "rate_per_year": 1.196305,
+          "probability": 0.022666,
+          "probability_lower": 0.017502,
+          "probability_upper": 0.028853
+        },
+        {
+          "cell_id": "cell_01_07",
+          "lat_center": 21.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.243,
+          "probability": 0.004646,
+          "probability_lower": 0.002477,
+          "probability_upper": 0.007932
+        },
+        {
+          "cell_id": "cell_02_00",
+          "lat_center": 22.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_02_01",
+          "lat_center": 22.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_02_02",
+          "lat_center": 22.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_02_03",
+          "lat_center": 22.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_02_04",
+          "lat_center": 22.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.598153,
+          "probability": 0.011398,
+          "probability_lower": 0.00781,
+          "probability_upper": 0.016053
+        },
+        {
+          "cell_id": "cell_02_05",
+          "lat_center": 22.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.289767,
+          "probability": 0.024415,
+          "probability_lower": 0.019049,
+          "probability_upper": 0.030798
+        },
+        {
+          "cell_id": "cell_02_06",
+          "lat_center": 22.5,
+          "lon_center": 94.5,
+          "rate_per_year": 3.308532,
+          "probability": 0.061439,
+          "probability_lower": 0.052957,
+          "probability_upper": 0.070834
+        },
+        {
+          "cell_id": "cell_02_07",
+          "lat_center": 22.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.747691,
+          "probability": 0.014227,
+          "probability_lower": 0.010185,
+          "probability_upper": 0.019324
+        },
+        {
+          "cell_id": "cell_03_00",
+          "lat_center": 23.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_03_01",
+          "lat_center": 23.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_03_02",
+          "lat_center": 23.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.002147,
+          "probability_lower": 0.000788,
+          "probability_upper": 0.004667
+        },
+        {
+          "cell_id": "cell_03_03",
+          "lat_center": 23.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.00179,
+          "probability_lower": 0.000581,
+          "probability_upper": 0.004171
+        },
+        {
+          "cell_id": "cell_03_04",
+          "lat_center": 23.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.336461,
+          "probability": 0.006428,
+          "probability_lower": 0.003814,
+          "probability_upper": 0.010139
+        },
+        {
+          "cell_id": "cell_03_05",
+          "lat_center": 23.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.757073,
+          "probability": 0.033114,
+          "probability_lower": 0.026845,
+          "probability_upper": 0.040371
+        },
+        {
+          "cell_id": "cell_03_06",
+          "lat_center": 23.5,
+          "lon_center": 94.5,
+          "rate_per_year": 4.168376,
+          "probability": 0.076779,
+          "probability_lower": 0.067368,
+          "probability_upper": 0.087063
+        },
+        {
+          "cell_id": "cell_03_07",
+          "lat_center": 23.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.654229,
+          "probability": 0.01246,
+          "probability_lower": 0.008695,
+          "probability_upper": 0.017287
+        },
+        {
+          "cell_id": "cell_04_00",
+          "lat_center": 24.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_04_01",
+          "lat_center": 24.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_04_02",
+          "lat_center": 24.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_04_03",
+          "lat_center": 24.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.003576,
+          "probability_lower": 0.001716,
+          "probability_upper": 0.006566
+        },
+        {
+          "cell_id": "cell_04_04",
+          "lat_center": 24.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.654229,
+          "probability": 0.01246,
+          "probability_lower": 0.008695,
+          "probability_upper": 0.017287
+        },
+        {
+          "cell_id": "cell_04_05",
+          "lat_center": 24.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.196305,
+          "probability": 0.022666,
+          "probability_lower": 0.017502,
+          "probability_upper": 0.028853
+        },
+        {
+          "cell_id": "cell_04_06",
+          "lat_center": 24.5,
+          "lon_center": 94.5,
+          "rate_per_year": 3.775838,
+          "probability": 0.069808,
+          "probability_lower": 0.060801,
+          "probability_upper": 0.079705
+        },
+        {
+          "cell_id": "cell_04_07",
+          "lat_center": 24.5,
+          "lon_center": 95.5,
+          "rate_per_year": 1.682304,
+          "probability": 0.031727,
+          "probability_lower": 0.025593,
+          "probability_upper": 0.038855
+        },
+        {
+          "cell_id": "cell_05_00",
+          "lat_center": 25.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_05_01",
+          "lat_center": 25.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.002147,
+          "probability_lower": 0.000788,
+          "probability_upper": 0.004667
+        },
+        {
+          "cell_id": "cell_05_02",
+          "lat_center": 25.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.57946,
+          "probability": 0.011044,
+          "probability_lower": 0.007517,
+          "probability_upper": 0.01564
+        },
+        {
+          "cell_id": "cell_05_03",
+          "lat_center": 25.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.560768,
+          "probability": 0.01069,
+          "probability_lower": 0.007225,
+          "probability_upper": 0.015225
+        },
+        {
+          "cell_id": "cell_05_04",
+          "lat_center": 25.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.00429,
+          "probability_lower": 0.002219,
+          "probability_upper": 0.007481
+        },
+        {
+          "cell_id": "cell_05_05",
+          "lat_center": 25.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.006072,
+          "probability_lower": 0.003541,
+          "probability_upper": 0.009703
+        },
+        {
+          "cell_id": "cell_05_06",
+          "lat_center": 25.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.915921,
+          "probability": 0.0174,
+          "probability_lower": 0.012902,
+          "probability_upper": 0.02294
+        },
+        {
+          "cell_id": "cell_05_07",
+          "lat_center": 25.5,
+          "lon_center": 95.5,
+          "rate_per_year": 1.532766,
+          "probability": 0.028948,
+          "probability_lower": 0.023092,
+          "probability_upper": 0.035806
+        },
+        {
+          "cell_id": "cell_06_00",
+          "lat_center": 26.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_06_01",
+          "lat_center": 26.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.003576,
+          "probability_lower": 0.001716,
+          "probability_upper": 0.006566
+        },
+        {
+          "cell_id": "cell_06_02",
+          "lat_center": 26.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.299076,
+          "probability": 0.005715,
+          "probability_lower": 0.003271,
+          "probability_upper": 0.009265
+        },
+        {
+          "cell_id": "cell_06_03",
+          "lat_center": 26.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.355153,
+          "probability": 0.006783,
+          "probability_lower": 0.00409,
+          "probability_upper": 0.010573
+        },
+        {
+          "cell_id": "cell_06_04",
+          "lat_center": 26.5,
+          "lon_center": 92.5,
+          "rate_per_year": 1.495382,
+          "probability": 0.028252,
+          "probability_lower": 0.022468,
+          "probability_upper": 0.03504
+        },
+        {
+          "cell_id": "cell_06_05",
+          "lat_center": 26.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.41123,
+          "probability": 0.00785,
+          "probability_lower": 0.004927,
+          "probability_upper": 0.011861
+        },
+        {
+          "cell_id": "cell_06_06",
+          "lat_center": 26.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.002505,
+          "probability_lower": 0.001008,
+          "probability_upper": 0.005153
+        },
+        {
+          "cell_id": "cell_06_07",
+          "lat_center": 26.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.859844,
+          "probability": 0.016344,
+          "probability_lower": 0.011992,
+          "probability_upper": 0.021741
+        },
+        {
+          "cell_id": "cell_07_00",
+          "lat_center": 27.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.728999,
+          "probability": 0.013874,
+          "probability_lower": 0.009886,
+          "probability_upper": 0.018918
+        },
+        {
+          "cell_id": "cell_07_01",
+          "lat_center": 27.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.002147,
+          "probability_lower": 0.000788,
+          "probability_upper": 0.004667
+        },
+        {
+          "cell_id": "cell_07_02",
+          "lat_center": 27.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.149538,
+          "probability": 0.002862,
+          "probability_lower": 0.001237,
+          "probability_upper": 0.005631
+        },
+        {
+          "cell_id": "cell_07_03",
+          "lat_center": 27.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.504691,
+          "probability": 0.009626,
+          "probability_lower": 0.006354,
+          "probability_upper": 0.013974
+        },
+        {
+          "cell_id": "cell_07_04",
+          "lat_center": 27.5,
+          "lon_center": 92.5,
+          "rate_per_year": 1.252382,
+          "probability": 0.023716,
+          "probability_lower": 0.018429,
+          "probability_upper": 0.030022
+        },
+        {
+          "cell_id": "cell_07_05",
+          "lat_center": 27.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.002147,
+          "probability_lower": 0.000788,
+          "probability_upper": 0.004667
+        },
+        {
+          "cell_id": "cell_07_06",
+          "lat_center": 27.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.16823,
+          "probability": 0.003219,
+          "probability_lower": 0.001473,
+          "probability_upper": 0.006102
+        },
+        {
+          "cell_id": "cell_07_07",
+          "lat_center": 27.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        }
+      ]
+    },
+    "M4.5_30d": {
+      "threshold": 4.5,
+      "horizon": "30d",
+      "horizon_years": 0.082136,
+      "regional_rate_per_year": 36.4312,
+      "regional_probability": 0.949828,
+      "n_cells": 64,
+      "cells": [
+        {
+          "cell_id": "cell_00_00",
+          "lat_center": 20.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_00_01",
+          "lat_center": 20.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_00_02",
+          "lat_center": 20.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_00_03",
+          "lat_center": 20.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_00_04",
+          "lat_center": 20.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_00_05",
+          "lat_center": 20.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.373845,
+          "probability": 0.030239,
+          "probability_lower": 0.018581,
+          "probability_upper": 0.046316
+        },
+        {
+          "cell_id": "cell_00_06",
+          "lat_center": 20.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.691614,
+          "probability": 0.055223,
+          "probability_lower": 0.039207,
+          "probability_upper": 0.075313
+        },
+        {
+          "cell_id": "cell_00_07",
+          "lat_center": 20.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.025762,
+          "probability_lower": 0.015089,
+          "probability_upper": 0.040928
+        },
+        {
+          "cell_id": "cell_01_00",
+          "lat_center": 21.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_01_01",
+          "lat_center": 21.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_01_02",
+          "lat_center": 21.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_01_03",
+          "lat_center": 21.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.007647,
+          "probability_lower": 0.002489,
+          "probability_upper": 0.017755
+        },
+        {
+          "cell_id": "cell_01_04",
+          "lat_center": 21.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.018255,
+          "probability_lower": 0.009475,
+          "probability_upper": 0.03167
+        },
+        {
+          "cell_id": "cell_01_05",
+          "lat_center": 21.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.915921,
+          "probability": 0.07247,
+          "probability_lower": 0.054135,
+          "probability_upper": 0.094672
+        },
+        {
+          "cell_id": "cell_01_06",
+          "lat_center": 21.5,
+          "lon_center": 94.5,
+          "rate_per_year": 1.196305,
+          "probability": 0.093586,
+          "probability_lower": 0.072879,
+          "probability_upper": 0.117922
+        },
+        {
+          "cell_id": "cell_01_07",
+          "lat_center": 21.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.243,
+          "probability": 0.019761,
+          "probability_lower": 0.010571,
+          "probability_upper": 0.033554
+        },
+        {
+          "cell_id": "cell_02_00",
+          "lat_center": 22.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_02_01",
+          "lat_center": 22.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_02_02",
+          "lat_center": 22.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_02_03",
+          "lat_center": 22.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_02_04",
+          "lat_center": 22.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.598153,
+          "probability": 0.047942,
+          "probability_lower": 0.033046,
+          "probability_upper": 0.067006
+        },
+        {
+          "cell_id": "cell_02_05",
+          "lat_center": 22.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.289767,
+          "probability": 0.100517,
+          "probability_lower": 0.079119,
+          "probability_upper": 0.12547
+        },
+        {
+          "cell_id": "cell_02_06",
+          "lat_center": 22.5,
+          "lon_center": 94.5,
+          "rate_per_year": 3.308532,
+          "probability": 0.237954,
+          "probability_lower": 0.207995,
+          "probability_upper": 0.270112
+        },
+        {
+          "cell_id": "cell_02_07",
+          "lat_center": 22.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.747691,
+          "probability": 0.059564,
+          "probability_lower": 0.042925,
+          "probability_upper": 0.080225
+        },
+        {
+          "cell_id": "cell_03_00",
+          "lat_center": 23.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_03_01",
+          "lat_center": 23.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_03_02",
+          "lat_center": 23.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.009169,
+          "probability_lower": 0.003375,
+          "probability_upper": 0.019851
+        },
+        {
+          "cell_id": "cell_03_03",
+          "lat_center": 23.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.007647,
+          "probability_lower": 0.002489,
+          "probability_upper": 0.017755
+        },
+        {
+          "cell_id": "cell_03_04",
+          "lat_center": 23.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.336461,
+          "probability": 0.027257,
+          "probability_lower": 0.016245,
+          "probability_upper": 0.042736
+        },
+        {
+          "cell_id": "cell_03_05",
+          "lat_center": 23.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.757073,
+          "probability": 0.134388,
+          "probability_lower": 0.11008,
+          "probability_upper": 0.161892
+        },
+        {
+          "cell_id": "cell_03_06",
+          "lat_center": 23.5,
+          "lon_center": 94.5,
+          "rate_per_year": 4.168376,
+          "probability": 0.289916,
+          "probability_lower": 0.258372,
+          "probability_upper": 0.3232
+        },
+        {
+          "cell_id": "cell_03_07",
+          "lat_center": 23.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.654229,
+          "probability": 0.052317,
+          "probability_lower": 0.036737,
+          "probability_upper": 0.072009
+        },
+        {
+          "cell_id": "cell_04_00",
+          "lat_center": 24.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_04_01",
+          "lat_center": 24.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_04_02",
+          "lat_center": 24.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_04_03",
+          "lat_center": 24.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.015236,
+          "probability_lower": 0.007335,
+          "probability_upper": 0.02784
+        },
+        {
+          "cell_id": "cell_04_04",
+          "lat_center": 24.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.654229,
+          "probability": 0.052317,
+          "probability_lower": 0.036737,
+          "probability_upper": 0.072009
+        },
+        {
+          "cell_id": "cell_04_05",
+          "lat_center": 24.5,
+          "lon_center": 93.5,
+          "rate_per_year": 1.196305,
+          "probability": 0.093586,
+          "probability_lower": 0.072879,
+          "probability_upper": 0.117922
+        },
+        {
+          "cell_id": "cell_04_06",
+          "lat_center": 24.5,
+          "lon_center": 94.5,
+          "rate_per_year": 3.775838,
+          "probability": 0.266649,
+          "probability_lower": 0.235731,
+          "probability_upper": 0.299509
+        },
+        {
+          "cell_id": "cell_04_07",
+          "lat_center": 24.5,
+          "lon_center": 95.5,
+          "rate_per_year": 1.682304,
+          "probability": 0.129055,
+          "probability_lower": 0.10516,
+          "probability_upper": 0.156203
+        },
+        {
+          "cell_id": "cell_05_00",
+          "lat_center": 25.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_05_01",
+          "lat_center": 25.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.009169,
+          "probability_lower": 0.003375,
+          "probability_upper": 0.019851
+        },
+        {
+          "cell_id": "cell_05_02",
+          "lat_center": 25.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.57946,
+          "probability": 0.046479,
+          "probability_lower": 0.031821,
+          "probability_upper": 0.065325
+        },
+        {
+          "cell_id": "cell_05_03",
+          "lat_center": 25.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.560768,
+          "probability": 0.045014,
+          "probability_lower": 0.030598,
+          "probability_upper": 0.063637
+        },
+        {
+          "cell_id": "cell_05_04",
+          "lat_center": 25.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.018255,
+          "probability_lower": 0.009475,
+          "probability_upper": 0.03167
+        },
+        {
+          "cell_id": "cell_05_05",
+          "lat_center": 25.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.025762,
+          "probability_lower": 0.015089,
+          "probability_upper": 0.040928
+        },
+        {
+          "cell_id": "cell_05_06",
+          "lat_center": 25.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.915921,
+          "probability": 0.07247,
+          "probability_lower": 0.054135,
+          "probability_upper": 0.094672
+        },
+        {
+          "cell_id": "cell_05_07",
+          "lat_center": 25.5,
+          "lon_center": 95.5,
+          "rate_per_year": 1.532766,
+          "probability": 0.118292,
+          "probability_lower": 0.095278,
+          "probability_upper": 0.14467
+        },
+        {
+          "cell_id": "cell_06_00",
+          "lat_center": 26.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_06_01",
+          "lat_center": 26.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.015236,
+          "probability_lower": 0.007335,
+          "probability_upper": 0.02784
+        },
+        {
+          "cell_id": "cell_06_02",
+          "lat_center": 26.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.299076,
+          "probability": 0.024266,
+          "probability_lower": 0.013943,
+          "probability_upper": 0.039106
+        },
+        {
+          "cell_id": "cell_06_03",
+          "lat_center": 26.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.355153,
+          "probability": 0.028749,
+          "probability_lower": 0.017409,
+          "probability_upper": 0.044532
+        },
+        {
+          "cell_id": "cell_06_04",
+          "lat_center": 26.5,
+          "lon_center": 92.5,
+          "rate_per_year": 1.495382,
+          "probability": 0.115581,
+          "probability_lower": 0.092799,
+          "probability_upper": 0.141754
+        },
+        {
+          "cell_id": "cell_06_05",
+          "lat_center": 26.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.41123,
+          "probability": 0.033213,
+          "probability_lower": 0.020945,
+          "probability_upper": 0.049853
+        },
+        {
+          "cell_id": "cell_06_06",
+          "lat_center": 26.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.01069,
+          "probability_lower": 0.004312,
+          "probability_upper": 0.0219
+        },
+        {
+          "cell_id": "cell_06_07",
+          "lat_center": 26.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.859844,
+          "probability": 0.068188,
+          "probability_lower": 0.050391,
+          "probability_upper": 0.089901
+        },
+        {
+          "cell_id": "cell_07_00",
+          "lat_center": 27.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.728999,
+          "probability": 0.058119,
+          "probability_lower": 0.041684,
+          "probability_upper": 0.078593
+        },
+        {
+          "cell_id": "cell_07_01",
+          "lat_center": 27.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.009169,
+          "probability_lower": 0.003375,
+          "probability_upper": 0.019851
+        },
+        {
+          "cell_id": "cell_07_02",
+          "lat_center": 27.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.149538,
+          "probability": 0.012207,
+          "probability_lower": 0.005289,
+          "probability_upper": 0.023911
+        },
+        {
+          "cell_id": "cell_07_03",
+          "lat_center": 27.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.504691,
+          "probability": 0.040606,
+          "probability_lower": 0.026948,
+          "probability_upper": 0.058529
+        },
+        {
+          "cell_id": "cell_07_04",
+          "lat_center": 27.5,
+          "lon_center": 92.5,
+          "rate_per_year": 1.252382,
+          "probability": 0.097751,
+          "probability_lower": 0.076624,
+          "probability_upper": 0.122462
+        },
+        {
+          "cell_id": "cell_07_05",
+          "lat_center": 27.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.009169,
+          "probability_lower": 0.003375,
+          "probability_upper": 0.019851
+        },
+        {
+          "cell_id": "cell_07_06",
+          "lat_center": 27.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.16823,
+          "probability": 0.013723,
+          "probability_lower": 0.006298,
+          "probability_upper": 0.025889
+        },
+        {
+          "cell_id": "cell_07_07",
+          "lat_center": 27.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        }
+      ]
+    },
+    "M5.0_7d": {
+      "threshold": 5.0,
+      "horizon": "7d",
+      "horizon_years": 0.019165,
+      "regional_rate_per_year": 10.0004,
+      "regional_probability": 0.17441,
+      "n_cells": 64,
+      "cells": [
+        {
+          "cell_id": "cell_00_00",
+          "lat_center": 20.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_00_01",
+          "lat_center": 20.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_00_02",
+          "lat_center": 20.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_00_03",
+          "lat_center": 20.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_00_04",
+          "lat_center": 20.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_00_05",
+          "lat_center": 20.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.149538,
+          "probability": 0.002862,
+          "probability_lower": 0.001237,
+          "probability_upper": 0.005631
+        },
+        {
+          "cell_id": "cell_00_06",
+          "lat_center": 20.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.005003,
+          "probability_lower": 0.002738,
+          "probability_upper": 0.00838
+        },
+        {
+          "cell_id": "cell_00_07",
+          "lat_center": 20.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_01_00",
+          "lat_center": 21.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_01_01",
+          "lat_center": 21.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_01_02",
+          "lat_center": 21.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_01_03",
+          "lat_center": 21.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_01_04",
+          "lat_center": 21.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_01_05",
+          "lat_center": 21.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.243,
+          "probability": 0.004646,
+          "probability_lower": 0.002477,
+          "probability_upper": 0.007932
+        },
+        {
+          "cell_id": "cell_01_06",
+          "lat_center": 21.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.243,
+          "probability": 0.004646,
+          "probability_lower": 0.002477,
+          "probability_upper": 0.007932
+        },
+        {
+          "cell_id": "cell_01_07",
+          "lat_center": 21.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.00179,
+          "probability_lower": 0.000581,
+          "probability_upper": 0.004171
+        },
+        {
+          "cell_id": "cell_02_00",
+          "lat_center": 22.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_02_01",
+          "lat_center": 22.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_02_02",
+          "lat_center": 22.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_02_03",
+          "lat_center": 22.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_02_04",
+          "lat_center": 22.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.003576,
+          "probability_lower": 0.001716,
+          "probability_upper": 0.006566
+        },
+        {
+          "cell_id": "cell_02_05",
+          "lat_center": 22.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.005003,
+          "probability_lower": 0.002738,
+          "probability_upper": 0.00838
+        },
+        {
+          "cell_id": "cell_02_06",
+          "lat_center": 22.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.747691,
+          "probability": 0.014227,
+          "probability_lower": 0.010185,
+          "probability_upper": 0.019324
+        },
+        {
+          "cell_id": "cell_02_07",
+          "lat_center": 22.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.00429,
+          "probability_lower": 0.002219,
+          "probability_upper": 0.007481
+        },
+        {
+          "cell_id": "cell_03_00",
+          "lat_center": 23.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_03_01",
+          "lat_center": 23.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_03_02",
+          "lat_center": 23.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_03_03",
+          "lat_center": 23.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_03_04",
+          "lat_center": 23.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.002505,
+          "probability_lower": 0.001008,
+          "probability_upper": 0.005153
+        },
+        {
+          "cell_id": "cell_03_05",
+          "lat_center": 23.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.448614,
+          "probability": 0.008561,
+          "probability_lower": 0.005494,
+          "probability_upper": 0.012711
+        },
+        {
+          "cell_id": "cell_03_06",
+          "lat_center": 23.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.99069,
+          "probability": 0.018807,
+          "probability_lower": 0.014122,
+          "probability_upper": 0.024529
+        },
+        {
+          "cell_id": "cell_03_07",
+          "lat_center": 23.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.005003,
+          "probability_lower": 0.002738,
+          "probability_upper": 0.00838
+        },
+        {
+          "cell_id": "cell_04_00",
+          "lat_center": 24.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_04_01",
+          "lat_center": 24.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.001073
+        },
+        {
+          "cell_id": "cell_04_02",
+          "lat_center": 24.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_04_03",
+          "lat_center": 24.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_04_04",
+          "lat_center": 24.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.280384,
+          "probability": 0.005359,
+          "probability_lower": 0.003003,
+          "probability_upper": 0.008824
+        },
+        {
+          "cell_id": "cell_04_05",
+          "lat_center": 24.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.006072,
+          "probability_lower": 0.003541,
+          "probability_upper": 0.009703
+        },
+        {
+          "cell_id": "cell_04_06",
+          "lat_center": 24.5,
+          "lon_center": 94.5,
+          "rate_per_year": 1.158921,
+          "probability": 0.021966,
+          "probability_lower": 0.016885,
+          "probability_upper": 0.028072
+        },
+        {
+          "cell_id": "cell_04_07",
+          "lat_center": 24.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.485999,
+          "probability": 0.009271,
+          "probability_lower": 0.006066,
+          "probability_upper": 0.013555
+        },
+        {
+          "cell_id": "cell_05_00",
+          "lat_center": 25.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_05_01",
+          "lat_center": 25.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_05_02",
+          "lat_center": 25.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.002147,
+          "probability_lower": 0.000788,
+          "probability_upper": 0.004667
+        },
+        {
+          "cell_id": "cell_05_03",
+          "lat_center": 25.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.003933,
+          "probability_lower": 0.001965,
+          "probability_upper": 0.007026
+        },
+        {
+          "cell_id": "cell_05_04",
+          "lat_center": 25.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_05_05",
+          "lat_center": 25.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_05_06",
+          "lat_center": 25.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.003933,
+          "probability_lower": 0.001965,
+          "probability_upper": 0.007026
+        },
+        {
+          "cell_id": "cell_05_07",
+          "lat_center": 25.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.373845,
+          "probability": 0.007139,
+          "probability_lower": 0.004367,
+          "probability_upper": 0.011004
+        },
+        {
+          "cell_id": "cell_06_00",
+          "lat_center": 26.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.001074,
+          "probability_lower": 0.000222,
+          "probability_upper": 0.003136
+        },
+        {
+          "cell_id": "cell_06_01",
+          "lat_center": 26.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_06_02",
+          "lat_center": 26.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_06_03",
+          "lat_center": 26.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.001432,
+          "probability_lower": 0.00039,
+          "probability_upper": 0.003662
+        },
+        {
+          "cell_id": "cell_06_04",
+          "lat_center": 26.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.448614,
+          "probability": 0.008561,
+          "probability_lower": 0.005494,
+          "probability_upper": 0.012711
+        },
+        {
+          "cell_id": "cell_06_05",
+          "lat_center": 26.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.002505,
+          "probability_lower": 0.001008,
+          "probability_upper": 0.005153
+        },
+        {
+          "cell_id": "cell_06_06",
+          "lat_center": 26.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_06_07",
+          "lat_center": 26.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.003576,
+          "probability_lower": 0.001716,
+          "probability_upper": 0.006566
+        },
+        {
+          "cell_id": "cell_07_00",
+          "lat_center": 27.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.243,
+          "probability": 0.004646,
+          "probability_lower": 0.002477,
+          "probability_upper": 0.007932
+        },
+        {
+          "cell_id": "cell_07_01",
+          "lat_center": 27.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_07_02",
+          "lat_center": 27.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_07_03",
+          "lat_center": 27.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.003933,
+          "probability_lower": 0.001965,
+          "probability_upper": 0.007026
+        },
+        {
+          "cell_id": "cell_07_04",
+          "lat_center": 27.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.504691,
+          "probability": 0.009626,
+          "probability_lower": 0.006354,
+          "probability_upper": 0.013974
+        },
+        {
+          "cell_id": "cell_07_05",
+          "lat_center": 27.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        },
+        {
+          "cell_id": "cell_07_06",
+          "lat_center": 27.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.000716,
+          "probability_lower": 8.7e-05,
+          "probability_upper": 0.002585
+        },
+        {
+          "cell_id": "cell_07_07",
+          "lat_center": 27.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.000358,
+          "probability_lower": 9e-06,
+          "probability_upper": 0.001994
+        }
+      ]
+    },
+    "M5.0_30d": {
+      "threshold": 5.0,
+      "horizon": "30d",
+      "horizon_years": 0.082136,
+      "regional_rate_per_year": 10.0004,
+      "regional_probability": 0.560178,
+      "n_cells": 64,
+      "cells": [
+        {
+          "cell_id": "cell_00_00",
+          "lat_center": 20.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_00_01",
+          "lat_center": 20.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_00_02",
+          "lat_center": 20.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_00_03",
+          "lat_center": 20.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_00_04",
+          "lat_center": 20.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_00_05",
+          "lat_center": 20.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.149538,
+          "probability": 0.012207,
+          "probability_lower": 0.005289,
+          "probability_upper": 0.023911
+        },
+        {
+          "cell_id": "cell_00_06",
+          "lat_center": 20.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.021265,
+          "probability_lower": 0.011682,
+          "probability_upper": 0.035421
+        },
+        {
+          "cell_id": "cell_00_07",
+          "lat_center": 20.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_01_00",
+          "lat_center": 21.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_01_01",
+          "lat_center": 21.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_01_02",
+          "lat_center": 21.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_01_03",
+          "lat_center": 21.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_01_04",
+          "lat_center": 21.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_01_05",
+          "lat_center": 21.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.243,
+          "probability": 0.019761,
+          "probability_lower": 0.010571,
+          "probability_upper": 0.033554
+        },
+        {
+          "cell_id": "cell_01_06",
+          "lat_center": 21.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.243,
+          "probability": 0.019761,
+          "probability_lower": 0.010571,
+          "probability_upper": 0.033554
+        },
+        {
+          "cell_id": "cell_01_07",
+          "lat_center": 21.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.093461,
+          "probability": 0.007647,
+          "probability_lower": 0.002489,
+          "probability_upper": 0.017755
+        },
+        {
+          "cell_id": "cell_02_00",
+          "lat_center": 22.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_02_01",
+          "lat_center": 22.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_02_02",
+          "lat_center": 22.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_02_03",
+          "lat_center": 22.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_02_04",
+          "lat_center": 22.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.015236,
+          "probability_lower": 0.007335,
+          "probability_upper": 0.02784
+        },
+        {
+          "cell_id": "cell_02_05",
+          "lat_center": 22.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.021265,
+          "probability_lower": 0.011682,
+          "probability_upper": 0.035421
+        },
+        {
+          "cell_id": "cell_02_06",
+          "lat_center": 22.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.747691,
+          "probability": 0.059564,
+          "probability_lower": 0.042925,
+          "probability_upper": 0.080225
+        },
+        {
+          "cell_id": "cell_02_07",
+          "lat_center": 22.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.224307,
+          "probability": 0.018255,
+          "probability_lower": 0.009475,
+          "probability_upper": 0.03167
+        },
+        {
+          "cell_id": "cell_03_00",
+          "lat_center": 23.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_03_01",
+          "lat_center": 23.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_03_02",
+          "lat_center": 23.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_03_03",
+          "lat_center": 23.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_03_04",
+          "lat_center": 23.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.01069,
+          "probability_lower": 0.004312,
+          "probability_upper": 0.0219
+        },
+        {
+          "cell_id": "cell_03_05",
+          "lat_center": 23.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.448614,
+          "probability": 0.036177,
+          "probability_lower": 0.023332,
+          "probability_upper": 0.05335
+        },
+        {
+          "cell_id": "cell_03_06",
+          "lat_center": 23.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.99069,
+          "probability": 0.078148,
+          "probability_lower": 0.059132,
+          "probability_upper": 0.100967
+        },
+        {
+          "cell_id": "cell_03_07",
+          "lat_center": 23.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.261692,
+          "probability": 0.021265,
+          "probability_lower": 0.011682,
+          "probability_upper": 0.035421
+        },
+        {
+          "cell_id": "cell_04_00",
+          "lat_center": 24.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_04_01",
+          "lat_center": 24.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.0,
+          "probability": 0.0,
+          "probability_lower": 0.0,
+          "probability_upper": 0.004589
+        },
+        {
+          "cell_id": "cell_04_02",
+          "lat_center": 24.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_04_03",
+          "lat_center": 24.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_04_04",
+          "lat_center": 24.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.280384,
+          "probability": 0.022766,
+          "probability_lower": 0.012807,
+          "probability_upper": 0.037271
+        },
+        {
+          "cell_id": "cell_04_05",
+          "lat_center": 24.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.317769,
+          "probability": 0.025762,
+          "probability_lower": 0.015089,
+          "probability_upper": 0.040928
+        },
+        {
+          "cell_id": "cell_04_06",
+          "lat_center": 24.5,
+          "lon_center": 94.5,
+          "rate_per_year": 1.158921,
+          "probability": 0.090799,
+          "probability_lower": 0.070381,
+          "probability_upper": 0.114876
+        },
+        {
+          "cell_id": "cell_04_07",
+          "lat_center": 24.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.485999,
+          "probability": 0.039132,
+          "probability_lower": 0.025739,
+          "probability_upper": 0.056811
+        },
+        {
+          "cell_id": "cell_05_00",
+          "lat_center": 25.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_05_01",
+          "lat_center": 25.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_05_02",
+          "lat_center": 25.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.112154,
+          "probability": 0.009169,
+          "probability_lower": 0.003375,
+          "probability_upper": 0.019851
+        },
+        {
+          "cell_id": "cell_05_03",
+          "lat_center": 25.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.016746,
+          "probability_lower": 0.008395,
+          "probability_upper": 0.029766
+        },
+        {
+          "cell_id": "cell_05_04",
+          "lat_center": 25.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_05_05",
+          "lat_center": 25.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_05_06",
+          "lat_center": 25.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.016746,
+          "probability_lower": 0.008395,
+          "probability_upper": 0.029766
+        },
+        {
+          "cell_id": "cell_05_07",
+          "lat_center": 25.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.373845,
+          "probability": 0.030239,
+          "probability_lower": 0.018581,
+          "probability_upper": 0.046316
+        },
+        {
+          "cell_id": "cell_06_00",
+          "lat_center": 26.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.056077,
+          "probability": 0.004595,
+          "probability_lower": 0.000949,
+          "probability_upper": 0.01337
+        },
+        {
+          "cell_id": "cell_06_01",
+          "lat_center": 26.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_06_02",
+          "lat_center": 26.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_06_03",
+          "lat_center": 26.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.074769,
+          "probability": 0.006122,
+          "probability_lower": 0.001672,
+          "probability_upper": 0.015601
+        },
+        {
+          "cell_id": "cell_06_04",
+          "lat_center": 26.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.448614,
+          "probability": 0.036177,
+          "probability_lower": 0.023332,
+          "probability_upper": 0.05335
+        },
+        {
+          "cell_id": "cell_06_05",
+          "lat_center": 26.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.130846,
+          "probability": 0.01069,
+          "probability_lower": 0.004312,
+          "probability_upper": 0.0219
+        },
+        {
+          "cell_id": "cell_06_06",
+          "lat_center": 26.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_06_07",
+          "lat_center": 26.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.186923,
+          "probability": 0.015236,
+          "probability_lower": 0.007335,
+          "probability_upper": 0.02784
+        },
+        {
+          "cell_id": "cell_07_00",
+          "lat_center": 27.5,
+          "lon_center": 88.5,
+          "rate_per_year": 0.243,
+          "probability": 0.019761,
+          "probability_lower": 0.010571,
+          "probability_upper": 0.033554
+        },
+        {
+          "cell_id": "cell_07_01",
+          "lat_center": 27.5,
+          "lon_center": 89.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_07_02",
+          "lat_center": 27.5,
+          "lon_center": 90.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_07_03",
+          "lat_center": 27.5,
+          "lon_center": 91.5,
+          "rate_per_year": 0.205615,
+          "probability": 0.016746,
+          "probability_lower": 0.008395,
+          "probability_upper": 0.029766
+        },
+        {
+          "cell_id": "cell_07_04",
+          "lat_center": 27.5,
+          "lon_center": 92.5,
+          "rate_per_year": 0.504691,
+          "probability": 0.040606,
+          "probability_lower": 0.026948,
+          "probability_upper": 0.058529
+        },
+        {
+          "cell_id": "cell_07_05",
+          "lat_center": 27.5,
+          "lon_center": 93.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        },
+        {
+          "cell_id": "cell_07_06",
+          "lat_center": 27.5,
+          "lon_center": 94.5,
+          "rate_per_year": 0.037385,
+          "probability": 0.003066,
+          "probability_lower": 0.000372,
+          "probability_upper": 0.011031
+        },
+        {
+          "cell_id": "cell_07_07",
+          "lat_center": 27.5,
+          "lon_center": 95.5,
+          "rate_per_year": 0.018692,
+          "probability": 0.001534,
+          "probability_lower": 3.9e-05,
+          "probability_upper": 0.008518
+        }
+      ]
+    }
+  },
+  "recent_earthquakes": [
+    {
+      "event_id": "ev_005780",
+      "time": "2026-08-06T20:32:48.799000+00:00",
+      "latitude": 22.6929,
+      "longitude": 95.9588,
+      "depth_km": 10.0,
+      "magnitude": 4.6,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005779",
+      "time": "2026-08-05T00:11:57.782000+00:00",
+      "latitude": 21.9032,
+      "longitude": 94.6478,
+      "depth_km": 103.4,
+      "magnitude": 5.1,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005778",
+      "time": "2024-12-30T14:03:46.860000+00:00",
+      "latitude": 23.7015,
+      "longitude": 94.1439,
+      "depth_km": 0.0,
+      "magnitude": 4.1,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005777",
+      "time": "2024-12-21T16:38:17.130000+00:00",
+      "latitude": 25.8739,
+      "longitude": 95.6662,
+      "depth_km": 131.6,
+      "magnitude": 3.4,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005776",
+      "time": "2024-12-21T08:39:34.730000+00:00",
+      "latitude": 22.744,
+      "longitude": 94.6922,
+      "depth_km": 133.0,
+      "magnitude": 3.4,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005775",
+      "time": "2024-12-20T13:13:08.914000+00:00",
+      "latitude": 23.6675,
+      "longitude": 94.0488,
+      "depth_km": 69.6,
+      "magnitude": 4.8,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005774",
+      "time": "2024-12-18T06:48:56.560000+00:00",
+      "latitude": 22.8378,
+      "longitude": 93.3207,
+      "depth_km": 34.9,
+      "magnitude": 4.3,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005773",
+      "time": "2024-12-16T16:55:10.280000+00:00",
+      "latitude": 24.0131,
+      "longitude": 93.6484,
+      "depth_km": 76.6,
+      "magnitude": 3.2,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005772",
+      "time": "2024-12-16T14:10:33.722000+00:00",
+      "latitude": 25.6193,
+      "longitude": 90.5843,
+      "depth_km": 10.0,
+      "magnitude": 4.7,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005771",
+      "time": "2024-12-16T10:17:13.010000+00:00",
+      "latitude": 20.2202,
+      "longitude": 95.1256,
+      "depth_km": 113.0,
+      "magnitude": 4.2,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005770",
+      "time": "2024-12-11T12:40:08.390000+00:00",
+      "latitude": 23.5091,
+      "longitude": 95.0879,
+      "depth_km": 0.0,
+      "magnitude": 4.1,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005769",
+      "time": "2024-12-11T11:53:29.138000+00:00",
+      "latitude": 22.5954,
+      "longitude": 93.8612,
+      "depth_km": 55.1,
+      "magnitude": 4.8,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005768",
+      "time": "2024-12-11T01:26:00.061000+00:00",
+      "latitude": 23.5806,
+      "longitude": 94.6445,
+      "depth_km": 107.5,
+      "magnitude": 4.9,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005767",
+      "time": "2024-11-28T01:52:59.710000+00:00",
+      "latitude": 25.3723,
+      "longitude": 94.8209,
+      "depth_km": 105.4,
+      "magnitude": 4.7,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005766",
+      "time": "2024-11-27T12:50:07.302000+00:00",
+      "latitude": 24.6737,
+      "longitude": 93.5219,
+      "depth_km": 57.1,
+      "magnitude": 4.7,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005765",
+      "time": "2024-11-23T17:35:06.040000+00:00",
+      "latitude": 25.0441,
+      "longitude": 92.7769,
+      "depth_km": 59.2,
+      "magnitude": 4.6,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005764",
+      "time": "2024-11-21T13:23:50.560000+00:00",
+      "latitude": 26.7569,
+      "longitude": 92.1813,
+      "depth_km": 0.0,
+      "magnitude": 3.3,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005763",
+      "time": "2024-11-21T07:04:35.430000+00:00",
+      "latitude": 26.297,
+      "longitude": 95.8766,
+      "depth_km": 130.5,
+      "magnitude": 3.4,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc"
+      ]
+    },
+    {
+      "event_id": "ev_005762",
+      "time": "2024-11-18T06:27:31.689000+00:00",
+      "latitude": 26.3299,
+      "longitude": 96.0,
+      "depth_km": 123.6,
+      "magnitude": 4.4,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    },
+    {
+      "event_id": "ev_005761",
+      "time": "2024-11-12T08:30:35.294000+00:00",
+      "latitude": 27.4254,
+      "longitude": 88.33,
+      "depth_km": 10.0,
+      "magnitude": 4.8,
+      "magnitude_type": "mb",
+      "sources": [
+        "isc",
+        "usgs"
+      ]
+    }
+  ],
+  "warnings": [
+    "This is a PROBABILISTIC FORECAST, not deterministic earthquake prediction.",
+    "Probabilities are not guarantees.",
+    "Rare-event probabilities have substantial uncertainty.",
+    "Model: FINAL_v1.0_FROZEN (frozen; do not modify)."
+  ]
+}

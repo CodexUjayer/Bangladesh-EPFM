@@ -1,0 +1,8 @@
+#EventID|Time|Latitude|Longitude|Depth/km|Author|Catalog|Contributor|ContributorID|MagType|Magnitude|MagAuthor|EventLocationName|EventType
+646112256|2026-08-05T00:11:58.240|21.9190|94.6120|104.3|GFZ|GFZ|GFZ|639736038|mb|4.84|GFZ|Myanmar|earthquake
+646122326|2026-08-06T20:32:49.000|22.6930|95.9590|10.0|NEIC|NEIC|NEIC|639740947|M|4.20|NEIC|Myanmar|earthquake
+# Agencies whose data contributed towards the results of this search:
+# GFZ       Helmholtz Centre Potsdam GFZ German Research Centre For Geosciences              Germany
+# IPEC      The Institute of Physics of the Earth (IPEC)                                     Czech Republic
+# MOS       Geophysical Survey of Russian Academy of Sciences                                Russia
+# NEIC      National Earthquake Information Center                                           U.S.A.

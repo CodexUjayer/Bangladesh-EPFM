@@ -1,0 +1,16 @@
+{
+  "stage": 8,
+  "generated_at_utc": "2026-08-09T16:34:52.803697+00:00",
+  "catalog": "expanded USGS+ISC (5,779 events, Mc\u22484.13, b\u22480.808)",
+  "baseline": "Spatial Poisson (causal expanding-window)",
+  "central_rule": "SP is the baseline to beat. Do not tune to succeed.",
+  "physical_data": {
+    "gcmt_available": false,
+    "gem_gafd_with_dip": 0,
+    "real_forecasting_enabled": false,
+    "blocking_gaps": [
+      "receiver-fault geometry (GEM GAFD has traces but NO dip/rake; published literature not transcribed; regional stress unavailable)"
+    ],
+    "status": "Coulomb remains DISABLED \u2014 no validated receiver-fault geometry."
+  }
+}

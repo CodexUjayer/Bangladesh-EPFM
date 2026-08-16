@@ -1,0 +1,14 @@
+field_name,classification,source,value_summary,notes
+focal_mechanisms (GCMT),D,not supplied,0 files,GCMT is the gold-standard global CMT catalog. Required for source focal mechanisms.
+focal_mechanisms (USGS),A,USGS ComCat focal-mechanism product (per-event detail API),28 events with focal-mechanism products,USGS focal-mechanism products provide strike/dip/rake for moderate-large events.
+fault_geometry (GEM GAFD traces),A,GEM Global Active Faults Database (Styron & Pagani 2020),42 fault traces in region,Surface-trace geometry (lon/lat vertices).
+fault_dip (GEM GAFD),D,GEM GAFD,0/42 segments have dip,Dip is REQUIRED for receiver-fault ΔCFS. GEM GAFD is geometry-only for Bangladesh.
+fault_rake (GEM GAFD),D,GEM GAFD,0/42 have rake,Rake (slip direction) is REQUIRED for receiver-fault ΔCFS.
+fault_slip_rate (GEM GAFD),D,GEM GAFD,0/42 have slip rate,"Slip rate needed for long-term hazard, not directly for Coulomb ΔCFS."
+fault_geometry (published literature),D,Morino et al. 2014; Wang et al. 2014; Steckler et al. 2016,NOT TRANSCRIBED — requires manual literature acquisition,Primary-literature fault geometry would override GEM GAFD placeholders. Not currently loaded.
+"elastic_params (shear modulus, Poisson's ratio)",C,engineering assumption (standard crustal values),"μ=30 GPa, ν=0.25 (Okada 1992 defaults)",No Bangladesh-specific elastic model available. Standard crustal values used; sensitivity tested.
+effective_friction (μ'),C,engineering assumption,μ'=0.4 (King et al. 1994 typical; range 0.2-0.8 tested),No Bangladesh-specific friction data. Sensitivity analysis required.
+skempton_coefficient (B),C,engineering assumption,B=0.5 (typical crystalline crust; range 0.5-1.0),Pore-pressure coupling. No Bangladesh data.
+regional_stress_orientation,D,not available,No Bangladesh stress map in the World Stress Map database for this region,"If available, could be used to define 'optimal' receiver faults. Currently unavailable."
+receiver_fault_orientations,D,not available,No validated receiver-fault dataset for Bangladesh,"BLOCKING: receiver-fault geometry is required for ΔCFS. Without it, only stress-tensor components can be computed."
+coseismic_slip_distributions,D,not available,No finite-fault slip models for Bangladesh events in the catalog,"For M>7 events, finite-source would improve accuracy; point-source used as approximation."

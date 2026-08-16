@@ -1,0 +1,11 @@
+{
+  "model_version": "v2.0_CANDIDATE_BAYESIAN_SPATIAL",
+  "control": "FINAL_v1.0_FROZEN",
+  "status": "EXPERIMENTAL",
+  "generated_at_utc": "2026-08-11T09:38:27.589789+00:00",
+  "mc": 4.13,
+  "grid": "1.0 deg, 64 cells",
+  "evaluation_period": "2015-2024 (untouched)",
+  "n_forecast_origins": 9,
+  "random_seed": 42
+}

@@ -1,0 +1,224 @@
+[
+  {
+    "mainshock_threshold": 5.0,
+    "target_threshold": 4.5,
+    "n_mainshocks": 640,
+    "n_target_events": 1987,
+    "spatial_concentration_ratio": 1.865,
+    "spatial_clustering_detected": false,
+    "notes": "No strong spatial clustering: post/background density ratio at <50km = 1.86. Spatial concentration is weak or absent.",
+    "dist_bins": [
+      {
+        "bin_center_km": 1.18,
+        "n_post_events": 3,
+        "density_per_km2": 5.385e-05
+      },
+      {
+        "bin_center_km": 1.63,
+        "n_post_events": 4,
+        "density_per_km2": 3.733e-05
+      },
+      {
+        "bin_center_km": 2.27,
+        "n_post_events": 4,
+        "density_per_km2": 1.941e-05
+      },
+      {
+        "bin_center_km": 3.14,
+        "n_post_events": 10,
+        "density_per_km2": 2.522e-05
+      },
+      {
+        "bin_center_km": 4.36,
+        "n_post_events": 9,
+        "density_per_km2": 1.18e-05
+      },
+      {
+        "bin_center_km": 6.04,
+        "n_post_events": 21,
+        "density_per_km2": 1.432e-05
+      },
+      {
+        "bin_center_km": 8.38,
+        "n_post_events": 30,
+        "density_per_km2": 1.063e-05
+      },
+      {
+        "bin_center_km": 11.62,
+        "n_post_events": 37,
+        "density_per_km2": 6.82e-06
+      },
+      {
+        "bin_center_km": 16.12,
+        "n_post_events": 35,
+        "density_per_km2": 3.35e-06
+      },
+      {
+        "bin_center_km": 22.36,
+        "n_post_events": 43,
+        "density_per_km2": 2.14e-06
+      },
+      {
+        "bin_center_km": 31.01,
+        "n_post_events": 45,
+        "density_per_km2": 1.16e-06
+      },
+      {
+        "bin_center_km": 43.01,
+        "n_post_events": 53,
+        "density_per_km2": 7.1e-07
+      },
+      {
+        "bin_center_km": 59.65,
+        "n_post_events": 76,
+        "density_per_km2": 5.3e-07
+      },
+      {
+        "bin_center_km": 82.73,
+        "n_post_events": 88,
+        "density_per_km2": 3.2e-07
+      },
+      {
+        "bin_center_km": 114.75,
+        "n_post_events": 140,
+        "density_per_km2": 2.6e-07
+      },
+      {
+        "bin_center_km": 159.14,
+        "n_post_events": 202,
+        "density_per_km2": 2e-07
+      },
+      {
+        "bin_center_km": 220.72,
+        "n_post_events": 307,
+        "density_per_km2": 1.6e-07
+      },
+      {
+        "bin_center_km": 306.12,
+        "n_post_events": 365,
+        "density_per_km2": 1e-07
+      },
+      {
+        "bin_center_km": 424.57,
+        "n_post_events": 405,
+        "density_per_km2": 6e-08
+      }
+    ],
+    "depth_summary": {
+      "mainshock_mean_depth": 60.71,
+      "target_mean_depth": 63.36,
+      "post_mean_depth": 62.0
+    }
+  },
+  {
+    "mainshock_threshold": 6.0,
+    "target_threshold": 4.5,
+    "n_mainshocks": 24,
+    "n_target_events": 1987,
+    "spatial_concentration_ratio": 4.039,
+    "spatial_clustering_detected": true,
+    "notes": "Spatial clustering DETECTED: post-mainshock density at <50km is 4.04\u00d7 background. Events DO concentrate spatially after mainshocks; standard ETAS spatial kernel may be misspecified.",
+    "dist_bins": [
+      {
+        "bin_center_km": 1.18,
+        "n_post_events": 0,
+        "density_per_km2": 0.0
+      },
+      {
+        "bin_center_km": 1.63,
+        "n_post_events": 0,
+        "density_per_km2": 0.0
+      },
+      {
+        "bin_center_km": 2.27,
+        "n_post_events": 0,
+        "density_per_km2": 0.0
+      },
+      {
+        "bin_center_km": 3.14,
+        "n_post_events": 2,
+        "density_per_km2": 0.00013452
+      },
+      {
+        "bin_center_km": 4.36,
+        "n_post_events": 1,
+        "density_per_km2": 3.497e-05
+      },
+      {
+        "bin_center_km": 6.04,
+        "n_post_events": 7,
+        "density_per_km2": 0.00012725
+      },
+      {
+        "bin_center_km": 8.38,
+        "n_post_events": 5,
+        "density_per_km2": 4.725e-05
+      },
+      {
+        "bin_center_km": 11.62,
+        "n_post_events": 6,
+        "density_per_km2": 2.948e-05
+      },
+      {
+        "bin_center_km": 16.12,
+        "n_post_events": 5,
+        "density_per_km2": 1.277e-05
+      },
+      {
+        "bin_center_km": 22.36,
+        "n_post_events": 8,
+        "density_per_km2": 1.062e-05
+      },
+      {
+        "bin_center_km": 31.01,
+        "n_post_events": 9,
+        "density_per_km2": 6.21e-06
+      },
+      {
+        "bin_center_km": 43.01,
+        "n_post_events": 4,
+        "density_per_km2": 1.44e-06
+      },
+      {
+        "bin_center_km": 59.65,
+        "n_post_events": 8,
+        "density_per_km2": 1.49e-06
+      },
+      {
+        "bin_center_km": 82.73,
+        "n_post_events": 2,
+        "density_per_km2": 1.9e-07
+      },
+      {
+        "bin_center_km": 114.75,
+        "n_post_events": 6,
+        "density_per_km2": 3e-07
+      },
+      {
+        "bin_center_km": 159.14,
+        "n_post_events": 9,
+        "density_per_km2": 2.4e-07
+      },
+      {
+        "bin_center_km": 220.72,
+        "n_post_events": 8,
+        "density_per_km2": 1.1e-07
+      },
+      {
+        "bin_center_km": 306.12,
+        "n_post_events": 15,
+        "density_per_km2": 1.1e-07
+      },
+      {
+        "bin_center_km": 424.57,
+        "n_post_events": 12,
+        "density_per_km2": 4e-08
+      }
+    ],
+    "depth_summary": {
+      "mainshock_mean_depth": 59.69,
+      "target_mean_depth": 63.36,
+      "post_mean_depth": 64.34
+    }
+  }
+]

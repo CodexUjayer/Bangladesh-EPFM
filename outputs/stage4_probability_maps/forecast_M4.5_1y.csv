@@ -1,0 +1,65 @@
+cell_id,lat_center,lon_center,threshold,horizon,horizon_years,n_events_above_threshold,exposure_years,expected_rate_per_year,expected_count,probability_at_least_one,probability_ci_lower,probability_ci_upper,low_statistics,notes
+cell_00_00,20.5,88.5,4.5,1y,1.0,0,51.859,0.0,0.0,0.0,9e-06,0.047284,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_00_01,20.5,89.5,4.5,1y,1.0,3,51.859,0.05785,0.05785,0.056208,0.016161,0.143061,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_00_02,20.5,90.5,4.5,1y,1.0,0,51.859,0.0,0.0,0.0,9e-06,0.047284,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_00_03,20.5,91.5,4.5,1y,1.0,3,51.859,0.05785,0.05785,0.056208,0.016161,0.143061,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_00_04,20.5,92.5,4.5,1y,1.0,6,51.859,0.115699,0.115699,0.109257,0.047145,0.212184,False,
+cell_00_05,20.5,93.5,4.5,1y,1.0,17,51.859,0.327814,0.327814,0.279503,0.179894,0.401282,False,
+cell_00_06,20.5,94.5,4.5,1y,1.0,42,51.859,0.809894,0.809894,0.555095,0.446717,0.661642,False,
+cell_00_07,20.5,95.5,4.5,1y,1.0,15,51.859,0.289248,0.289248,0.251173,0.155577,0.371885,False,
+cell_01_00,21.5,88.5,4.5,1y,1.0,1,51.859,0.019283,0.019283,0.019098,0.002078,0.086191,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_01,21.5,89.5,4.5,1y,1.0,4,51.859,0.077133,0.077133,0.074233,0.0257,0.167573,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_02,21.5,90.5,4.5,1y,1.0,1,51.859,0.019283,0.019283,0.019098,0.002078,0.086191,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_03,21.5,91.5,4.5,1y,1.0,4,51.859,0.077133,0.077133,0.074233,0.0257,0.167573,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_04,21.5,92.5,4.5,1y,1.0,10,51.859,0.192832,0.192832,0.175379,0.094387,0.289704,False,
+cell_01_05,21.5,93.5,4.5,1y,1.0,48,51.859,0.925593,0.925593,0.603704,0.498794,0.703647,False,
+cell_01_06,21.5,94.5,4.5,1y,1.0,73,51.859,1.407673,1.407673,0.755288,0.671076,0.827816,False,
+cell_01_07,21.5,95.5,4.5,1y,1.0,13,51.859,0.250681,0.250681,0.22173,0.131086,0.340626,False,
+cell_02_00,22.5,88.5,4.5,1y,1.0,1,51.859,0.019283,0.019283,0.019098,0.002078,0.086191,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_01,22.5,89.5,4.5,1y,1.0,1,51.859,0.019283,0.019283,0.019098,0.002078,0.086191,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_02,22.5,90.5,4.5,1y,1.0,0,51.859,0.0,0.0,0.0,9e-06,0.047284,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_02_03,22.5,91.5,4.5,1y,1.0,4,51.859,0.077133,0.077133,0.074233,0.0257,0.167573,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_04,22.5,92.5,4.5,1y,1.0,37,51.859,0.713478,0.713478,0.510063,0.399771,0.62177,False,
+cell_02_05,22.5,93.5,4.5,1y,1.0,66,51.859,1.272691,1.272691,0.719923,0.629454,0.799787,False,
+cell_02_06,22.5,94.5,4.5,1y,1.0,177,51.859,3.413125,3.413125,0.967062,0.947015,0.980635,False,
+cell_02_07,22.5,95.5,4.5,1y,1.0,46,51.859,0.887027,0.887027,0.588121,0.48194,0.690297,False,
+cell_03_00,23.5,88.5,4.5,1y,1.0,4,51.859,0.077133,0.077133,0.074233,0.0257,0.167573,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_03_01,23.5,89.5,4.5,1y,1.0,2,51.859,0.038566,0.038566,0.037832,0.007982,0.116378,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_03_02,23.5,90.5,4.5,1y,1.0,13,51.859,0.250681,0.250681,0.22173,0.131086,0.340626,False,
+cell_03_03,23.5,91.5,4.5,1y,1.0,10,51.859,0.192832,0.192832,0.175379,0.094387,0.289704,False,
+cell_03_04,23.5,92.5,4.5,1y,1.0,20,51.859,0.385664,0.385664,0.320001,0.215813,0.442281,False,
+cell_03_05,23.5,93.5,4.5,1y,1.0,94,51.859,1.81262,1.81262,0.836774,0.770866,0.890033,False,
+cell_03_06,23.5,94.5,4.5,1y,1.0,228,51.859,4.396568,4.396568,0.98768,0.978792,0.993232,False,
+cell_03_07,23.5,95.5,4.5,1y,1.0,29,51.859,0.559213,0.559213,0.428341,0.31778,0.546945,False,
+cell_04_00,24.5,88.5,4.5,1y,1.0,1,51.859,0.019283,0.019283,0.019098,0.002078,0.086191,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_01,24.5,89.5,4.5,1y,1.0,2,51.859,0.038566,0.038566,0.037832,0.007982,0.116378,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_02,24.5,90.5,4.5,1y,1.0,2,51.859,0.038566,0.038566,0.037832,0.007982,0.116378,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_03,24.5,91.5,4.5,1y,1.0,13,51.859,0.250681,0.250681,0.22173,0.131086,0.340626,False,
+cell_04_04,24.5,92.5,4.5,1y,1.0,31,51.859,0.597779,0.597779,0.449968,0.339071,0.567069,False,
+cell_04_05,24.5,93.5,4.5,1y,1.0,61,51.859,1.176275,1.176275,0.691574,0.596746,0.776898,False,
+cell_04_06,24.5,94.5,4.5,1y,1.0,205,51.859,3.953054,3.953054,0.980804,0.967916,0.989138,False,
+cell_04_07,24.5,95.5,4.5,1y,1.0,99,51.859,1.909036,1.909036,0.851777,0.789919,0.901095,False,
+cell_05_00,25.5,88.5,4.5,1y,1.0,3,51.859,0.05785,0.05785,0.056208,0.016161,0.143061,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_05_01,25.5,89.5,4.5,1y,1.0,5,51.859,0.096416,0.096416,0.091914,0.036121,0.190505,False,
+cell_05_02,25.5,90.5,4.5,1y,1.0,30,51.859,0.578496,0.578496,0.439259,0.328491,0.557134,False,
+cell_05_03,25.5,91.5,4.5,1y,1.0,29,51.859,0.559213,0.559213,0.428341,0.31778,0.546945,False,
+cell_05_04,25.5,92.5,4.5,1y,1.0,15,51.859,0.289248,0.289248,0.251173,0.155577,0.371885,False,
+cell_05_05,25.5,93.5,4.5,1y,1.0,15,51.859,0.289248,0.289248,0.251173,0.155577,0.371885,False,
+cell_05_06,25.5,94.5,4.5,1y,1.0,40,51.859,0.771328,0.771328,0.537601,0.428332,0.646264,False,
+cell_05_07,25.5,95.5,4.5,1y,1.0,97,51.859,1.87047,1.87047,0.845949,0.782489,0.896813,False,
+cell_06_00,26.5,88.5,4.5,1y,1.0,4,51.859,0.077133,0.077133,0.074233,0.0257,0.167573,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_06_01,26.5,89.5,4.5,1y,1.0,9,51.859,0.173549,0.173549,0.159324,0.082289,0.271486,False,
+cell_06_02,26.5,90.5,4.5,1y,1.0,15,51.859,0.289248,0.289248,0.251173,0.155577,0.371885,False,
+cell_06_03,26.5,91.5,4.5,1y,1.0,27,51.859,0.520646,0.520646,0.405863,0.295971,0.525774,False,
+cell_06_04,26.5,92.5,4.5,1y,1.0,80,51.859,1.542655,1.542655,0.786187,0.708238,0.851812,False,
+cell_06_05,26.5,93.5,4.5,1y,1.0,27,51.859,0.520646,0.520646,0.405863,0.295971,0.525774,False,
+cell_06_06,26.5,94.5,4.5,1y,1.0,7,51.859,0.134982,0.134982,0.126269,0.05859,0.232819,False,
+cell_06_07,26.5,95.5,4.5,1y,1.0,39,51.859,0.752044,0.752044,0.528598,0.418944,0.638295,False,
+cell_07_00,27.5,88.5,4.5,1y,1.0,35,51.859,0.674912,0.674912,0.490799,0.380069,0.604424,False,
+cell_07_01,27.5,89.5,4.5,1y,1.0,7,51.859,0.134982,0.134982,0.126269,0.05859,0.232819,False,
+cell_07_02,27.5,90.5,4.5,1y,1.0,8,51.859,0.154266,0.154266,0.142956,0.070335,0.252551,False,
+cell_07_03,27.5,91.5,4.5,1y,1.0,23,51.859,0.443513,0.443513,0.358222,0.250857,0.479986,False,
+cell_07_04,27.5,92.5,4.5,1y,1.0,72,51.859,1.38839,1.38839,0.750523,0.665413,0.824075,False,
+cell_07_05,27.5,93.5,4.5,1y,1.0,5,51.859,0.096416,0.096416,0.091914,0.036121,0.190505,False,
+cell_07_06,27.5,94.5,4.5,1y,1.0,7,51.859,0.134982,0.134982,0.126269,0.05859,0.232819,False,
+cell_07_07,27.5,95.5,4.5,1y,1.0,2,51.859,0.038566,0.038566,0.037832,0.007982,0.116378,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.

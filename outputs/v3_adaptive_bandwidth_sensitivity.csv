@@ -1,0 +1,15 @@
+adaptive,candidate_label,candidate_value,is_best,kernel,mean_brier_selection,variant
+False,bandwidth_deg,0.25,True,gaussian,0.005714883538928918,A_gaussian_fixed
+False,bandwidth_deg,0.5,False,gaussian,0.005881786452035709,A_gaussian_fixed
+False,bandwidth_deg,1.0,False,gaussian,0.006034662963386185,A_gaussian_fixed
+False,bandwidth_deg,2.0,False,gaussian,0.006138579159411471,A_gaussian_fixed
+True,nn_k,10,True,gaussian,0.005702261358152563,B_gaussian_nn
+True,nn_k,25,False,gaussian,0.005712812846286844,B_gaussian_nn
+True,nn_k,50,False,gaussian,0.005741736934838129,B_gaussian_nn
+False,bandwidth_deg,0.25,False,epanechnikov,0.005756199811023377,C_epanechnikov_fixed
+False,bandwidth_deg,0.5,True,epanechnikov,0.005683045462997272,C_epanechnikov_fixed
+False,bandwidth_deg,1.0,False,epanechnikov,0.00586007178830734,C_epanechnikov_fixed
+False,bandwidth_deg,2.0,False,epanechnikov,0.006028615377714837,C_epanechnikov_fixed
+True,nn_k,10,False,epanechnikov,0.005779025663192936,D_epanechnikov_nn
+True,nn_k,25,False,epanechnikov,0.005702770828696013,D_epanechnikov_nn
+True,nn_k,50,True,epanechnikov,0.005672902037022423,D_epanechnikov_nn

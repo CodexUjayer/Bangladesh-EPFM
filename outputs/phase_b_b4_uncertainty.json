@@ -1,0 +1,410 @@
+{
+  "4.5": {
+    "n_events": 1987,
+    "n_mb_events": 1824,
+    "n_near_threshold": 1405,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M4.5",
+      "point_estimate": 38.315701923195014,
+      "aleatory_uncertainty": 1.6944922271133187,
+      "epistemic_uncertainty": 8.127865304794513,
+      "total_uncertainty": 8.3026199672531,
+      "lower_95": 22.042566787378938,
+      "upper_95": 54.58883705901109,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=1987 events above M4.5; 1824 are mb (\u03c3=0.41); 1405 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M4.5",
+      "point_estimate": 0.5201677535318658,
+      "aleatory_uncertainty": 0.01558248893555107,
+      "epistemic_uncertainty": 0.07474355394203888,
+      "total_uncertainty": 0.07635059146668773,
+      "lower_95": 0.3705205942571579,
+      "upper_95": 0.6698149128065738,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=38.3157/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M4.5",
+      "point_estimate": 0.9570225723761776,
+      "aleatory_uncertainty": 0.005981512694036324,
+      "epistemic_uncertainty": 0.028691149311949337,
+      "total_uncertainty": 0.0293080286431805,
+      "lower_95": 0.8995788362355438,
+      "upper_95": 1.0,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=38.3157/yr; horizon=0.0821yr"
+      ]
+    }
+  },
+  "5.0": {
+    "n_events": 640,
+    "n_mb_events": 495,
+    "n_near_threshold": 1708,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M5.0",
+      "point_estimate": 12.341242692926427,
+      "aleatory_uncertainty": 0.966014070973821,
+      "epistemic_uncertainty": 9.880707431024218,
+      "total_uncertainty": 9.927817611278755,
+      "lower_95": -7.117279825179933,
+      "upper_95": 31.799765211032785,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=640 events above M5.0; 495 are mb (\u03c3=0.41); 1708 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M5.0",
+      "point_estimate": 0.21062940570250377,
+      "aleatory_uncertainty": 0.014614104610897854,
+      "epistemic_uncertainty": 0.14947783512211066,
+      "total_uncertainty": 0.1501905298158681,
+      "lower_95": 0.0,
+      "upper_95": 0.5050028441416052,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=12.3412/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M5.0",
+      "point_estimate": 0.6371096043361835,
+      "aleatory_uncertainty": 0.028793201513963366,
+      "epistemic_uncertainty": 0.29450626932918195,
+      "total_uncertainty": 0.2959104444382056,
+      "lower_95": 0.05712513323730051,
+      "upper_95": 1.0,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=12.3412/yr; horizon=0.0821yr"
+      ]
+    }
+  },
+  "5.5": {
+    "n_events": 96,
+    "n_mb_events": 24,
+    "n_near_threshold": 440,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M5.5",
+      "point_estimate": 1.851186403938964,
+      "aleatory_uncertainty": 0.38057425538004463,
+      "epistemic_uncertainty": 2.5453813054160754,
+      "total_uncertainty": 2.5736749510805983,
+      "lower_95": -3.193216500179008,
+      "upper_95": 6.895589308056937,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=96 events above M5.5; 24 are mb (\u03c3=0.41); 440 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M5.5",
+      "point_estimate": 0.034855941217159625,
+      "aleatory_uncertainty": 0.007039460288953523,
+      "epistemic_uncertainty": 0.047081772785255716,
+      "total_uncertainty": 0.04760511873488185,
+      "lower_95": 0.0,
+      "upper_95": 0.12816197393752804,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=1.8512/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M5.5",
+      "point_estimate": 0.14105309108482744,
+      "aleatory_uncertainty": 0.026849534313871277,
+      "epistemic_uncertainty": 0.1795767888540127,
+      "total_uncertainty": 0.1815729070869066,
+      "lower_95": 0.0,
+      "upper_95": 0.4969359889751644,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=1.8512/yr; horizon=0.0821yr"
+      ]
+    }
+  },
+  "6.0": {
+    "n_events": 24,
+    "n_mb_events": 2,
+    "n_near_threshold": 53,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M6.0",
+      "point_estimate": 0.462796600984741,
+      "aleatory_uncertainty": 0.19604107153313677,
+      "epistemic_uncertainty": 0.3066027481523909,
+      "total_uncertainty": 0.36391942363998503,
+      "lower_95": -0.2504854693496296,
+      "upper_95": 1.1760786713191116,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=24 events above M6.0; 2 are mb (\u03c3=0.41); 53 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M6.0",
+      "point_estimate": 0.008830258496063448,
+      "aleatory_uncertainty": 0.003723942087254147,
+      "epistemic_uncertainty": 0.005824141181147742,
+      "total_uncertainty": 0.006912912929233508,
+      "lower_95": 0.0,
+      "upper_95": 0.02237956783736112,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.4628/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M6.0",
+      "point_estimate": 0.03729865120863207,
+      "aleatory_uncertainty": 0.01550135556332286,
+      "epistemic_uncertainty": 0.024243686175724585,
+      "total_uncertainty": 0.02877582915725592,
+      "lower_95": 0.0,
+      "upper_95": 0.09369927635685367,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.4628/yr; horizon=0.0821yr"
+      ]
+    }
+  },
+  "6.5": {
+    "n_events": 9,
+    "n_mb_events": 1,
+    "n_near_threshold": 17,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M6.5",
+      "point_estimate": 0.17354872536927787,
+      "aleatory_uncertainty": 0.1250460059283005,
+      "epistemic_uncertainty": 0.09834427770925745,
+      "total_uncertainty": 0.15908519904999371,
+      "lower_95": -0.1382582647687098,
+      "upper_95": 0.48535571550726553,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=9 events above M6.5; 1 are mb (\u03c3=0.41); 17 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M6.5",
+      "point_estimate": 0.003320528411618562,
+      "aleatory_uncertainty": 0.002388543490184786,
+      "epistemic_uncertainty": 0.0018785052955154723,
+      "total_uncertainty": 0.003038736933297088,
+      "lower_95": 0.0,
+      "upper_95": 0.009276452800880854,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.1735/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M6.5",
+      "point_estimate": 0.014153400842313868,
+      "aleatory_uncertainty": 0.010125353567364838,
+      "epistemic_uncertainty": 0.007963233817354455,
+      "total_uncertainty": 0.012881610058296496,
+      "lower_95": 0.0,
+      "upper_95": 0.039401356556575,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.1735/yr; horizon=0.0821yr"
+      ]
+    }
+  },
+  "7.0": {
+    "n_events": 2,
+    "n_mb_events": 0,
+    "n_near_threshold": 7,
+    "exposure_years": 51.85863497902248,
+    "rate": {
+      "quantity": "rate_M7.0",
+      "point_estimate": 0.03856638341539508,
+      "aleatory_uncertainty": 0.06732223468670649,
+      "epistemic_uncertainty": 0.04049470258616483,
+      "total_uncertainty": 0.07856274066473198,
+      "lower_95": -0.11541658828747958,
+      "upper_95": 0.19254935511826976,
+      "sources": [
+        "Poisson counting (Garwood)",
+        "Magnitude conversion (Scordilis \u03c3=0.41)"
+      ],
+      "notes": [
+        "N=2 events above M7.0; 0 are mb (\u03c3=0.41); 7 within \u03c3 of threshold"
+      ]
+    },
+    "b_value": {
+      "quantity": "b_value",
+      "point_estimate": 0.9514856534308522,
+      "aleatory_uncertainty": 0.014760083692418418,
+      "epistemic_uncertainty": 0.4668260916313587,
+      "total_uncertainty": 0.46705937513170304,
+      "lower_95": 0.036049278172714305,
+      "upper_95": 1.86692202868899,
+      "sources": [
+        "Shi-Bolt (sampling)",
+        "Mc sensitivity (M4.0-M5.0 range)"
+      ],
+      "notes": [
+        "b=0.951 (Mc=4.5); range 0.493-1.427 across Mc"
+      ]
+    },
+    "probability_7d": {
+      "quantity": "P_ge1_7d_M7.0",
+      "point_estimate": 0.0007388499381987268,
+      "aleatory_uncertainty": 0.0012892743479928314,
+      "epistemic_uncertainty": 0.00077550576740214,
+      "total_uncertainty": 0.0015045389791116489,
+      "lower_95": 0.0,
+      "upper_95": 0.0036877463372575587,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.0386/yr; horizon=0.0192yr"
+      ]
+    },
+    "probability_30d": {
+      "quantity": "P_ge1_30d_M7.0",
+      "point_estimate": 0.003162658322081069,
+      "aleatory_uncertainty": 0.005512058929027802,
+      "epistemic_uncertainty": 0.0033155344294070223,
+      "total_uncertainty": 0.006432383865229008,
+      "lower_95": 0.0,
+      "upper_95": 0.015770130697929922,
+      "sources": [
+        "Rate uncertainty propagated through P=1-exp(-\u03bb\u0394t)"
+      ],
+      "notes": [
+        "\u03bb=0.0386/yr; horizon=0.0821yr"
+      ]
+    }
+  }
+}

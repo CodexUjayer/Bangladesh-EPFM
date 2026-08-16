@@ -1,0 +1,10 @@
+parameter,value,classification,source
+shear_modulus_GPa,30.0,C,engineering assumption (Okada 1992 default)
+poissons_ratio,0.25,C,engineering assumption
+effective_friction,0.4,C,engineering assumption (King et al. 1994 typical)
+skempton_coefficient,0.5,C,engineering assumption
+coupling_formulation,rate_and_state_dieterich1994,B,Dieterich 1994 / Toda 1998 / King 1994
+A_sigma_bar_MPa,1.0,C,engineering assumption (typical 0.1-10 MPa)
+beta_per_MPa,0.5,C,engineering assumption
+step_alpha,1.0,C,engineering assumption
+step_beta,0.5,C,engineering assumption

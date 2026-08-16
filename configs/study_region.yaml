@@ -1,0 +1,74 @@
+# Study region for the Bangladesh earthquake forecasting system.
+#
+# This region is NOT restricted to Bangladesh's political boundary. It is
+# scientifically justified to include the surrounding tectonic sources that
+# dominate Bangladesh's seismic hazard: the Shillong Plateau / Dauki system,
+# the Indo-Burman fold belt and megathrust, the Churachandpur-Mao fault, and
+# the Naga Thrust.
+#
+# bbox order: [min_lat, max_lat, min_lon, max_lon]
+# decimal degrees, WGS84.
+
+study_region:
+  name: "Bangladesh and surrounding tectonic sources"
+  description: >
+    Covers Bangladesh plus the Shillong Plateau, Indo-Burman fold belt,
+    Arakan/Bangladesh megathrust, Churachandpur-Mao fault system, Naga
+    Thrust, and the Chittagong-Tripura fold belt. The eastern margin follows
+    the Indo-Burman subduction front; the northern margin includes the
+    Dauki/Dhubri/Oldham/Dapsi fault system around Shillong.
+  bbox: [20.0, 28.0, 88.0, 96.0]
+  # roughly 800 km E-W x 900 km N-S
+
+  # Named tectonic sub-regions used for zoned completeness, b-value, and
+  # domain-similarity analysis (Stage 8). These are approximate; refinements
+  # come from primary literature.
+  subregions:
+    - name: "shillong_plateau"
+      bbox: [24.5, 26.5, 89.5, 92.5]
+      key_faults: ["Dauki", "Dhubri", "Oldham", "Dapsi"]
+    - name: "indo_burman_fold_belt"
+      bbox: [21.0, 26.0, 92.0, 95.5]
+      key_faults: ["Churachandpur-Mao", "Naga Thrust", "Arakan megathrust"]
+    - name: "arakan_megathrust"
+      bbox: [18.0, 23.0, 92.0, 95.0]
+      key_faults: ["Arakan/Bangladesh megathrust"]
+    - name: "bangladesh_platform"
+      bbox: [22.0, 26.0, 88.0, 92.0]
+      key_faults: []  # mostly stable, intraplate
+    - name: "chittagong_tripura_fold_belt"
+      bbox: [21.0, 24.0, 91.0, 92.5]
+      key_faults: ["Ramgarh", "Sitakund"]
+    - name: "surrounding_himalaya"
+      bbox: [26.0, 28.0, 88.0, 93.0]
+      key_faults: ["Himalayan front"]
+
+# Spatial forecasting grid. These are the operational grid parameters used
+# by the forecast engine (Stage 11) and the ML feature grid (Stage 7).
+forecast_grid:
+  cell_size_deg: 0.25          # ~27 km at this latitude
+  min_lat: 20.0
+  max_lat: 28.0
+  min_lon: 88.0
+  max_lon: 96.0
+  # -> 32 cells lat x 32 cells lon = 1024 cells
+  depth_bins_km: [0, 15, 35, 70, 150]   # shallow / mid / deep / mantle
+
+# Magnitude thresholds supported by the forecast engine.
+# WARNING: do NOT assume these thresholds are equally predictable. The system
+# reports probability per threshold with explicit uncertainty, and the
+# uncertainty GROWS with threshold because rarer events provide fewer
+# calibration samples.
+magnitude_thresholds:
+  short_term_forecast: [4.0, 5.0, 6.0, 7.0]
+  long_term_hazard: [5.0, 6.0, 7.0, 8.0]
+  notes: >
+    M>=4.0 forecasts are only meaningful where the local completeness
+    magnitude Mc is at or below 4.0 (modern instrumental era in well-
+    instrumented parts of the study region). M>=7.0 forecasts rest on very
+    few historical events and carry very wide uncertainty intervals.
+
+# Forecast horizons (two products, kept scientifically separate).
+forecast_horizons:
+  short_term: ["24h", "7d", "30d"]
+  long_term: ["1y", "5y", "50y"]   # the long-term product is NOT a short-term prediction

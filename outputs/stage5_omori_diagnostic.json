@@ -1,0 +1,290 @@
+[
+  {
+    "mainshock_threshold": 5.0,
+    "n_mainshocks": 640,
+    "background_rate_per_day": 0.104903,
+    "max_rate_ratio": 22.192,
+    "time_of_max_rate_ratio_days": 0.013,
+    "omori_like": true,
+    "notes": "Omori-like signature DETECTED: R(\u0394t) > 2 in at least one bin < 7d. Peak R=22.19 at \u0394t=0.01 days. The catalog DOES exhibit short-lived aftershock-like elevation; standard ETAS may be misspecified, not wrong about triggering existence.",
+    "bins": [
+      {
+        "bin_center_days": 0.0132,
+        "n_events": 11,
+        "exposure_days": 4.73,
+        "observed_rate_per_day": 2.328034,
+        "rate_ratio_R": 22.192
+      },
+      {
+        "bin_center_days": 0.0229,
+        "n_events": 17,
+        "exposure_days": 8.21,
+        "observed_rate_per_day": 2.069784,
+        "rate_ratio_R": 19.731
+      },
+      {
+        "bin_center_days": 0.0398,
+        "n_events": 10,
+        "exposure_days": 14.28,
+        "observed_rate_per_day": 0.700415,
+        "rate_ratio_R": 6.677
+      },
+      {
+        "bin_center_days": 0.0693,
+        "n_events": 7,
+        "exposure_days": 24.82,
+        "observed_rate_per_day": 0.282054,
+        "rate_ratio_R": 2.689
+      },
+      {
+        "bin_center_days": 0.1204,
+        "n_events": 3,
+        "exposure_days": 43.14,
+        "observed_rate_per_day": 0.06954,
+        "rate_ratio_R": 0.663
+      },
+      {
+        "bin_center_days": 0.2092,
+        "n_events": 15,
+        "exposure_days": 74.99,
+        "observed_rate_per_day": 0.200025,
+        "rate_ratio_R": 1.907
+      },
+      {
+        "bin_center_days": 0.3637,
+        "n_events": 31,
+        "exposure_days": 130.35,
+        "observed_rate_per_day": 0.237812,
+        "rate_ratio_R": 2.267
+      },
+      {
+        "bin_center_days": 0.6323,
+        "n_events": 43,
+        "exposure_days": 226.59,
+        "observed_rate_per_day": 0.189767,
+        "rate_ratio_R": 1.809
+      },
+      {
+        "bin_center_days": 1.0991,
+        "n_events": 45,
+        "exposure_days": 393.88,
+        "observed_rate_per_day": 0.114247,
+        "rate_ratio_R": 1.089
+      },
+      {
+        "bin_center_days": 1.9105,
+        "n_events": 74,
+        "exposure_days": 684.68,
+        "observed_rate_per_day": 0.108079,
+        "rate_ratio_R": 1.03
+      },
+      {
+        "bin_center_days": 3.321,
+        "n_events": 127,
+        "exposure_days": 1190.17,
+        "observed_rate_per_day": 0.106707,
+        "rate_ratio_R": 1.017
+      },
+      {
+        "bin_center_days": 5.7728,
+        "n_events": 235,
+        "exposure_days": 2068.86,
+        "observed_rate_per_day": 0.113589,
+        "rate_ratio_R": 1.083
+      },
+      {
+        "bin_center_days": 10.0348,
+        "n_events": 388,
+        "exposure_days": 3596.26,
+        "observed_rate_per_day": 0.10789,
+        "rate_ratio_R": 1.028
+      },
+      {
+        "bin_center_days": 17.4433,
+        "n_events": 702,
+        "exposure_days": 6251.33,
+        "observed_rate_per_day": 0.112296,
+        "rate_ratio_R": 1.07
+      },
+      {
+        "bin_center_days": 30.3214,
+        "n_events": 1197,
+        "exposure_days": 10866.58,
+        "observed_rate_per_day": 0.110154,
+        "rate_ratio_R": 1.05
+      },
+      {
+        "bin_center_days": 52.7073,
+        "n_events": 2063,
+        "exposure_days": 18872.71,
+        "observed_rate_per_day": 0.109311,
+        "rate_ratio_R": 1.042
+      },
+      {
+        "bin_center_days": 91.6202,
+        "n_events": 3433,
+        "exposure_days": 32733.04,
+        "observed_rate_per_day": 0.104879,
+        "rate_ratio_R": 1.0
+      },
+      {
+        "bin_center_days": 159.2619,
+        "n_events": 5958,
+        "exposure_days": 56819.19,
+        "observed_rate_per_day": 0.104859,
+        "rate_ratio_R": 1.0
+      },
+      {
+        "bin_center_days": 276.8423,
+        "n_events": 10531,
+        "exposure_days": 98325.38,
+        "observed_rate_per_day": 0.107104,
+        "rate_ratio_R": 1.021
+      }
+    ]
+  },
+  {
+    "mainshock_threshold": 6.0,
+    "n_mainshocks": 24,
+    "background_rate_per_day": 0.104903,
+    "max_rate_ratio": 376.597,
+    "time_of_max_rate_ratio_days": 0.013,
+    "omori_like": true,
+    "notes": "Omori-like signature DETECTED: R(\u0394t) > 2 in at least one bin < 7d. Peak R=376.60 at \u0394t=0.01 days. The catalog DOES exhibit short-lived aftershock-like elevation; standard ETAS may be misspecified, not wrong about triggering existence.",
+    "bins": [
+      {
+        "bin_center_days": 0.0132,
+        "n_events": 7,
+        "exposure_days": 0.18,
+        "observed_rate_per_day": 39.506038,
+        "rate_ratio_R": 376.597
+      },
+      {
+        "bin_center_days": 0.0229,
+        "n_events": 6,
+        "exposure_days": 0.31,
+        "observed_rate_per_day": 19.480316,
+        "rate_ratio_R": 185.699
+      },
+      {
+        "bin_center_days": 0.0398,
+        "n_events": 3,
+        "exposure_days": 0.54,
+        "observed_rate_per_day": 5.603319,
+        "rate_ratio_R": 53.414
+      },
+      {
+        "bin_center_days": 0.0693,
+        "n_events": 1,
+        "exposure_days": 0.93,
+        "observed_rate_per_day": 1.074493,
+        "rate_ratio_R": 10.243
+      },
+      {
+        "bin_center_days": 0.1204,
+        "n_events": 0,
+        "exposure_days": 1.62,
+        "observed_rate_per_day": 0.0,
+        "rate_ratio_R": 0.0
+      },
+      {
+        "bin_center_days": 0.2092,
+        "n_events": 1,
+        "exposure_days": 2.81,
+        "observed_rate_per_day": 0.3556,
+        "rate_ratio_R": 3.39
+      },
+      {
+        "bin_center_days": 0.3637,
+        "n_events": 5,
+        "exposure_days": 4.89,
+        "observed_rate_per_day": 1.022849,
+        "rate_ratio_R": 9.75
+      },
+      {
+        "bin_center_days": 0.6323,
+        "n_events": 8,
+        "exposure_days": 8.5,
+        "observed_rate_per_day": 0.941479,
+        "rate_ratio_R": 8.975
+      },
+      {
+        "bin_center_days": 1.0991,
+        "n_events": 3,
+        "exposure_days": 14.77,
+        "observed_rate_per_day": 0.203105,
+        "rate_ratio_R": 1.936
+      },
+      {
+        "bin_center_days": 1.9105,
+        "n_events": 7,
+        "exposure_days": 25.68,
+        "observed_rate_per_day": 0.272632,
+        "rate_ratio_R": 2.599
+      },
+      {
+        "bin_center_days": 3.321,
+        "n_events": 10,
+        "exposure_days": 44.63,
+        "observed_rate_per_day": 0.224057,
+        "rate_ratio_R": 2.136
+      },
+      {
+        "bin_center_days": 5.7728,
+        "n_events": 4,
+        "exposure_days": 77.58,
+        "observed_rate_per_day": 0.051558,
+        "rate_ratio_R": 0.491
+      },
+      {
+        "bin_center_days": 10.0348,
+        "n_events": 13,
+        "exposure_days": 134.86,
+        "observed_rate_per_day": 0.096396,
+        "rate_ratio_R": 0.919
+      },
+      {
+        "bin_center_days": 17.4433,
+        "n_events": 23,
+        "exposure_days": 234.42,
+        "observed_rate_per_day": 0.098113,
+        "rate_ratio_R": 0.935
+      },
+      {
+        "bin_center_days": 30.3214,
+        "n_events": 51,
+        "exposure_days": 407.5,
+        "observed_rate_per_day": 0.125154,
+        "rate_ratio_R": 1.193
+      },
+      {
+        "bin_center_days": 52.7073,
+        "n_events": 80,
+        "exposure_days": 708.34,
+        "observed_rate_per_day": 0.112939,
+        "rate_ratio_R": 1.077
+      },
+      {
+        "bin_center_days": 91.6202,
+        "n_events": 134,
+        "exposure_days": 1231.3,
+        "observed_rate_per_day": 0.108828,
+        "rate_ratio_R": 1.037
+      },
+      {
+        "bin_center_days": 159.2619,
+        "n_events": 204,
+        "exposure_days": 2140.36,
+        "observed_rate_per_day": 0.095311,
+        "rate_ratio_R": 0.909
+      },
+      {
+        "bin_center_days": 276.8423,
+        "n_events": 407,
+        "exposure_days": 3720.55,
+        "observed_rate_per_day": 0.109393,
+        "rate_ratio_R": 1.043
+      }
+    ]
+  }
+]

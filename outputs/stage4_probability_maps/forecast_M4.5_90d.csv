@@ -1,0 +1,65 @@
+cell_id,lat_center,lon_center,threshold,horizon,horizon_years,n_events_above_threshold,exposure_years,expected_rate_per_year,expected_count,probability_at_least_one,probability_ci_lower,probability_ci_upper,low_statistics,notes
+cell_00_00,20.5,88.5,4.5,90d,0.246407,0,51.859,0.0,0.0,0.0,2e-06,0.011865,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_00_01,20.5,89.5,4.5,90d,0.246407,3,51.859,0.05785,0.014255,0.014153,0.004007,0.037328,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_00_02,20.5,90.5,4.5,90d,0.246407,0,51.859,0.0,0.0,0.0,2e-06,0.011865,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_00_03,20.5,91.5,4.5,90d,0.246407,3,51.859,0.05785,0.014255,0.014153,0.004007,0.037328,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_00_04,20.5,92.5,4.5,90d,0.246407,6,51.859,0.115699,0.028509,0.028106,0.011829,0.057072,False,
+cell_00_05,20.5,93.5,4.5,90d,0.246407,17,51.859,0.327814,0.080776,0.077599,0.047693,0.118736,False,
+cell_00_06,20.5,94.5,4.5,90d,0.246407,42,51.859,0.809894,0.199563,0.180912,0.135708,0.234341,False,
+cell_00_07,20.5,95.5,4.5,90d,0.246407,15,51.859,0.289248,0.071273,0.068792,0.040812,0.108266,False,
+cell_01_00,21.5,88.5,4.5,90d,0.246407,1,51.859,0.019283,0.004752,0.00474,0.000513,0.021965,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_01,21.5,89.5,4.5,90d,0.246407,4,51.859,0.077133,0.019006,0.018827,0.006395,0.044187,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_02,21.5,90.5,4.5,90d,0.246407,1,51.859,0.019283,0.004752,0.00474,0.000513,0.021965,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_03,21.5,91.5,4.5,90d,0.246407,4,51.859,0.077133,0.019006,0.018827,0.006395,0.044187,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_01_04,21.5,92.5,4.5,90d,0.246407,10,51.859,0.192832,0.047515,0.046404,0.024134,0.080834,False,
+cell_01_05,21.5,93.5,4.5,90d,0.246407,48,51.859,0.925593,0.228072,0.203933,0.156506,0.258945,False,
+cell_01_06,21.5,94.5,4.5,90d,0.246407,73,51.859,1.407673,0.34686,0.293096,0.239657,0.351749,False,
+cell_01_07,21.5,95.5,4.5,90d,0.246407,13,51.859,0.250681,0.06177,0.059901,0.03403,0.09753,False,
+cell_02_00,22.5,88.5,4.5,90d,0.246407,1,51.859,0.019283,0.004752,0.00474,0.000513,0.021965,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_01,22.5,89.5,4.5,90d,0.246407,1,51.859,0.019283,0.004752,0.00474,0.000513,0.021965,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_02,22.5,90.5,4.5,90d,0.246407,0,51.859,0.0,0.0,0.0,2e-06,0.011865,True,"Low-statistics cell (N=0 < 5); rate CI is wide; do not interpret point rate as precise.; Zero observed events above threshold; rate upper bound (Jeffreys 95%) = 0.0484/yr, not zero.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise."
+cell_02_03,22.5,91.5,4.5,90d,0.246407,4,51.859,0.077133,0.019006,0.018827,0.006395,0.044187,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_02_04,22.5,92.5,4.5,90d,0.246407,37,51.859,0.713478,0.175806,0.161219,0.118188,0.213033,False,
+cell_02_05,22.5,93.5,4.5,90d,0.246407,66,51.859,1.272691,0.313599,0.269188,0.217004,0.327205,False,
+cell_02_06,22.5,94.5,4.5,90d,0.246407,177,51.859,3.413125,0.841016,0.568728,0.515132,0.621638,False,
+cell_02_07,22.5,95.5,4.5,90d,0.246407,46,51.859,0.887027,0.218569,0.196332,0.149604,0.250856,False,
+cell_03_00,23.5,88.5,4.5,90d,0.246407,4,51.859,0.077133,0.019006,0.018827,0.006395,0.044187,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_03_01,23.5,89.5,4.5,90d,0.246407,2,51.859,0.038566,0.009503,0.009458,0.001973,0.030027,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_03_02,23.5,90.5,4.5,90d,0.246407,13,51.859,0.250681,0.06177,0.059901,0.03403,0.09753,False,
+cell_03_03,23.5,91.5,4.5,90d,0.246407,10,51.859,0.192832,0.047515,0.046404,0.024134,0.080834,False,
+cell_03_04,23.5,92.5,4.5,90d,0.246407,20,51.859,0.385664,0.09503,0.090654,0.058145,0.134006,False,
+cell_03_05,23.5,93.5,4.5,90d,0.246407,94,51.859,1.81262,0.446641,0.360227,0.304461,0.419555,False,
+cell_03_06,23.5,94.5,4.5,90d,0.246407,228,51.859,4.396568,1.083343,0.661538,0.613065,0.707981,False,
+cell_03_07,23.5,95.5,4.5,90d,0.246407,29,51.859,0.559213,0.137794,0.128722,0.089924,0.17724,False,
+cell_04_00,24.5,88.5,4.5,90d,0.246407,1,51.859,0.019283,0.004752,0.00474,0.000513,0.021965,True,Low-statistics cell (N=1 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_01,24.5,89.5,4.5,90d,0.246407,2,51.859,0.038566,0.009503,0.009458,0.001973,0.030027,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_02,24.5,90.5,4.5,90d,0.246407,2,51.859,0.038566,0.009503,0.009458,0.001973,0.030027,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_04_03,24.5,91.5,4.5,90d,0.246407,13,51.859,0.250681,0.06177,0.059901,0.03403,0.09753,False,
+cell_04_04,24.5,92.5,4.5,90d,0.246407,31,51.859,0.597779,0.147297,0.136962,0.097006,0.186399,False,
+cell_04_05,24.5,93.5,4.5,90d,0.246407,61,51.859,1.176275,0.289842,0.251618,0.200512,0.309018,False,
+cell_04_06,24.5,94.5,4.5,90d,0.246407,205,51.859,3.953054,0.974059,0.622452,0.57151,0.67188,False,
+cell_04_07,24.5,95.5,4.5,90d,0.246407,99,51.859,1.909036,0.470399,0.375247,0.319181,0.434523,False,
+cell_05_00,25.5,88.5,4.5,90d,0.246407,3,51.859,0.05785,0.014255,0.014153,0.004007,0.037328,True,Low-statistics cell (N=3 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_05_01,25.5,89.5,4.5,90d,0.246407,5,51.859,0.096416,0.023758,0.023478,0.009024,0.050744,False,
+cell_05_02,25.5,90.5,4.5,90d,0.246407,30,51.859,0.578496,0.142545,0.132852,0.093465,0.181838,False,
+cell_05_03,25.5,91.5,4.5,90d,0.246407,29,51.859,0.559213,0.137794,0.128722,0.089924,0.17724,False,
+cell_05_04,25.5,92.5,4.5,90d,0.246407,15,51.859,0.289248,0.071273,0.068792,0.040812,0.108266,False,
+cell_05_05,25.5,93.5,4.5,90d,0.246407,15,51.859,0.289248,0.071273,0.068792,0.040812,0.108266,False,
+cell_05_06,25.5,94.5,4.5,90d,0.246407,40,51.859,0.771328,0.19006,0.173091,0.128718,0.22591,False,
+cell_05_07,25.5,95.5,4.5,90d,0.246407,97,51.859,1.87047,0.460896,0.369282,0.313326,0.428587,False,
+cell_06_00,26.5,88.5,4.5,90d,0.246407,4,51.859,0.077133,0.019006,0.018827,0.006395,0.044187,True,Low-statistics cell (N=4 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.
+cell_06_01,26.5,89.5,4.5,90d,0.246407,9,51.859,0.173549,0.042764,0.041862,0.020937,0.075081,False,
+cell_06_02,26.5,90.5,4.5,90d,0.246407,15,51.859,0.289248,0.071273,0.068792,0.040812,0.108266,False,
+cell_06_03,26.5,91.5,4.5,90d,0.246407,27,51.859,0.520646,0.128291,0.120402,0.08284,0.167928,False,
+cell_06_04,26.5,92.5,4.5,90d,0.246407,80,51.859,1.542655,0.38012,0.316221,0.26179,0.375284,False,
+cell_06_05,26.5,93.5,4.5,90d,0.246407,27,51.859,0.520646,0.128291,0.120402,0.08284,0.167928,False,
+cell_06_06,26.5,94.5,4.5,90d,0.246407,7,51.859,0.134982,0.033261,0.032713,0.014767,0.063219,False,
+cell_06_07,26.5,95.5,4.5,90d,0.246407,39,51.859,0.752044,0.185309,0.169152,0.125214,0.221649,False,
+cell_07_00,27.5,88.5,4.5,90d,0.246407,35,51.859,0.674912,0.166303,0.15321,0.111143,0.20429,False,
+cell_07_01,27.5,89.5,4.5,90d,0.246407,7,51.859,0.134982,0.033261,0.032713,0.014767,0.063219,False,
+cell_07_02,27.5,90.5,4.5,90d,0.246407,8,51.859,0.154266,0.038012,0.037299,0.01781,0.069214,False,
+cell_07_03,27.5,91.5,4.5,90d,0.246407,23,51.859,0.443513,0.109285,0.103525,0.068695,0.148814,False,
+cell_07_04,27.5,92.5,4.5,90d,0.246407,72,51.859,1.38839,0.342108,0.289729,0.236453,0.348306,False,
+cell_07_05,27.5,93.5,4.5,90d,0.246407,5,51.859,0.096416,0.023758,0.023478,0.009024,0.050744,False,
+cell_07_06,27.5,94.5,4.5,90d,0.246407,7,51.859,0.134982,0.033261,0.032713,0.014767,0.063219,False,
+cell_07_07,27.5,95.5,4.5,90d,0.246407,2,51.859,0.038566,0.009503,0.009458,0.001973,0.030027,True,Low-statistics cell (N=2 < 5); rate CI is wide; do not interpret point rate as precise.; Low-statistics cell: forecast probability has a wide CI; do not interpret point estimate as precise.

@@ -1,0 +1,3 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2026-08-05T00:11:57.782Z,21.9032,94.6478,103.392,4.8,mb,119,26,0.738,0.64,us,us6000ti5u,2026-08-05T04:07:18.240Z,"55 km WSW of Monywa, Burma (Myanmar)",earthquake,8.31,3.028,0.047,146,reviewed,us,us
+2026-08-06T20:32:48.799Z,22.6929,95.9588,10,4.2,mb,17,94,1.768,0.47,us,us6000tiq3,2026-08-06T21:01:11.040Z,"30 km ENE of Shwebo, Burma (Myanmar)",earthquake,6.66,1.95,0.199,7,reviewed,us,us

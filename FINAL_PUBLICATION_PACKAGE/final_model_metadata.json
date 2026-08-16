@@ -1,0 +1,37 @@
+{
+  "system": "Bangladesh Earthquake Forecasting System",
+  "version": "FINAL_v1.0_FROZEN",
+  "generated_at_utc": "2026-08-09T16:42:32.331013+00:00",
+  "catalog": {
+    "sources": [
+      "USGS ComCat",
+      "ISC Bulletin"
+    ],
+    "n_events": 5779,
+    "exposure_years": 51.88610974405531,
+    "mc": 4.125000000000002,
+    "b_value": 0.8084070580224147
+  },
+  "primary_model": "Spatial Poisson (causal expanding-window)",
+  "primary_model_status": "VALIDATED",
+  "etAS_status": "PRELIMINARY (K\u22480; no incremental skill)",
+  "ml_status": "VALIDATED (no incremental skill over SP)",
+  "coulomb_status": "DATA-LIMITED (disabled)",
+  "final_conclusion": "Historical spatial seismicity rates provide the strongest validated probabilistic forecasting baseline for the available Bangladesh catalog. Under strict chronological, spatial, and spatiotemporal validation, the tested ETAS and machine-learning formulations do not demonstrate statistically defensible incremental predictive skill beyond this baseline.",
+  "what_we_know": [
+    "Spatial Poisson is the strongest validated model",
+    "Historical spatial rates capture essentially all predictive information",
+    "ETAS K\u22480 is robust (survives expanded catalog, depth stratification)",
+    "Real post-mainshock temporal clustering exists (R\u224822\u00d7)",
+    "The failure is model misspecification, not absence of triggering",
+    "ML memorizes but does not generalize"
+  ],
+  "what_we_do_not_know": [
+    "Whether region-specific ETAS could capture the clustering",
+    "Whether Coulomb would help (no focal mechanisms)",
+    "Whether BMD data would change conclusions",
+    "The true M\u22657 recurrence rate (N=1; CI spans order of magnitude)"
+  ],
+  "frozen": true,
+  "rule": "This is the FINAL RUN. Model development is FROZEN."
+}

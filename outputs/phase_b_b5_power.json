@@ -1,0 +1,141 @@
+{
+  "4.5_7d": {
+    "threshold": 4.5,
+    "horizon": "7d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.012,
+    "n_positive": 6,
+    "mde_brier": 0.017965151451258814,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": false,
+    "notes": [
+      "INSUFFICIENT POWER: only 6 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 6 positives; MDE=0.0180 for Brier.",
+      "INSUFFICIENT POWER for Brier: MDE=0.0180 > 0.01."
+    ]
+  },
+  "4.5_30d": {
+    "threshold": 4.5,
+    "horizon": "30d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.04,
+    "n_positive": 23,
+    "mde_brier": 0.03233161507461904,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": false,
+    "notes": [
+      "LOW POWER: 23 positives; MDE=0.0323 for Brier.",
+      "INSUFFICIENT POWER for Brier: MDE=0.0323 > 0.01."
+    ]
+  },
+  "5.0_7d": {
+    "threshold": 5.0,
+    "horizon": "7d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.005,
+    "n_positive": 2,
+    "mde_brier": 0.011637463450235003,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": false,
+    "notes": [
+      "INSUFFICIENT POWER: only 2 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 2 positives; MDE=0.0116 for Brier.",
+      "INSUFFICIENT POWER for Brier: MDE=0.0116 > 0.01."
+    ]
+  },
+  "5.0_30d": {
+    "threshold": 5.0,
+    "horizon": "30d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.01,
+    "n_positive": 5,
+    "mde_brier": 0.016416455159382004,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": false,
+    "notes": [
+      "INSUFFICIENT POWER: only 5 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 5 positives; MDE=0.0164 for Brier.",
+      "INSUFFICIENT POWER for Brier: MDE=0.0164 > 0.01."
+    ]
+  },
+  "5.5_7d": {
+    "threshold": 5.5,
+    "horizon": "7d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.001,
+    "n_positive": 0,
+    "mde_brier": 0.0052148825490129684,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": true,
+    "notes": [
+      "INSUFFICIENT POWER: only 0 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 0 positives; MDE=0.0052 for Brier."
+    ]
+  },
+  "5.5_30d": {
+    "threshold": 5.5,
+    "horizon": "30d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.003,
+    "n_positive": 1,
+    "mde_brier": 0.009023395517579105,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": true,
+    "notes": [
+      "INSUFFICIENT POWER: only 1 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 1 positives; MDE=0.0090 for Brier."
+    ]
+  },
+  "6.0_7d": {
+    "threshold": 6.0,
+    "horizon": "7d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.0003,
+    "n_positive": 0,
+    "mde_brier": 0.002857309340387677,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": true,
+    "notes": [
+      "INSUFFICIENT POWER: only 0 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 0 positives; MDE=0.0029 for Brier."
+    ]
+  },
+  "6.0_30d": {
+    "threshold": 6.0,
+    "horizon": "30d",
+    "n_origins": 9,
+    "n_cells_per_origin": 64,
+    "n_total": 576,
+    "base_rate": 0.001,
+    "n_positive": 0,
+    "mde_brier": 0.0052148825490129684,
+    "mde_log_likelihood": 0.1649915822768611,
+    "mde_information_gain": 0.1649915822768611,
+    "sufficient_power": true,
+    "notes": [
+      "INSUFFICIENT POWER: only 0 positive test cases; cannot reliably detect any improvement.",
+      "LOW POWER: 0 positives; MDE=0.0052 for Brier."
+    ]
+  }
+}
